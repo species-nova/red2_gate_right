@@ -260,11 +260,25 @@
 		<scene path="core/environments/skies/sky_0200_night_moon_stars/sky_0200_night_moon_stars"/>
 	</add>
 	<add>
-        <material_config path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
-        <model path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
-        <object path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
-        <sequence_manager path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
-        <texture path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/vault_back_metal_df"/>
-        <unit path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
-    </add>
+		<material_config path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
+		<model path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
+		<object path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
+		<texture path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/vault_back_metal_df"/>
+		<unit path="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_small" type="unit">
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_small"/>
+		<object path="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_small"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger" type="unit">
+		<unit path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger"/>
+		<object path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger"/>
+		<material_config path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger_silver"/>
+		<sequence_manager path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger"/>
+		<effect load="true" path="effects/payday2/particles/window/storefront_window_small"/>
+		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
+		<effect load="true" path="effects/particles/bullet_hit/misc/misc_tire"/>
+	</add>
 </table>
