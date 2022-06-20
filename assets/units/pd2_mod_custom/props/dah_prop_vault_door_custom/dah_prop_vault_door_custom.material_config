@@ -1,0 +1,28 @@
+<materials version="3">
+    <!--<material name="mat_dah_vault_glass" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE_TO_SOLID" version="2" decal_material="glass_unbreakable">
+        <opacity_texture file="units/glass/window_glass/windows_op_texture_04_op"/>
+        <diffuse_texture file="units/glass/window_glass/window_glass_blue_df"/>
+        <reflection_texture file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight" type="cubemap"/>
+        <variable type="vector3" name="fresnel_settings" value="2 0 0.59999996423721"/>
+        <variable type="vector3" name="opacity_fade_to_solid" value="269 6386 0"/>
+    </material>-->
+	<material name="mat_dah_vault_glass" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_mod_custom/props/dah_prop_vault_door_custom/vault_back_metal_df"/>
+		<material_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_gsma"/>
+		<bump_normal_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_nm"/>
+		<reflection_texture file="environments/cubemaps/cubemap_bank_01" type="cubemap"/>
+        <variable type="vector3" name="environment_settings" value="1 0 2"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_dah_vault_metal_1" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/props/dah_prop_vault_door/dah_prop_vault_metal_02_df"/>
+        <reflection_texture file="units/payday2/cubemaps/cubemap_steel" type="cubemap"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:VERTEX_COLOR" name="mat_dah_vault_metal_2" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_df"/>
+        <bump_normal_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_nm"/>
+        <material_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_gsma"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:VERTEX_COLOR" name="mat_darkness" version="2">
+        <diffuse_texture file="units/pd2_dlc_dah/architecture/dah_int_textures/metallics/dah_dark_brushed_metal_df"/>
+    </material>
+</materials>

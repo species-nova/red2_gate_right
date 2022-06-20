@@ -1,0 +1,115 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" orientation_object="rp_dah_prop_vault_door" />
+	<sequence_manager file="units/pd2_mod_custom/props/dah_prop_vault_door_custom/dah_prop_vault_door_custom" />
+  	<animations>
+  	  <animation_group name="open_door">
+  	    <object name="g_vault_door_a" />
+      <object name="c_vault_door_a" />
+      <object name="g_vault_wheel_a" />
+      <object name="g_vault_wheel_s_a" />
+      <object name="g_vault_window_a" />
+      <object name="g_vault_door_bar_a" />
+      <object name="c_vault_door_bar_a" />
+      <object name="g_vault_door_b" />
+      <object name="c_vault_door_b" />
+      <object name="g_vault_door_bar_b" />
+      <object name="c_vault_door_bar_b" />
+      <object name="g_vault_wheel_s_b" />
+      <object name="g_vault_wheel_b" />
+      <object name="g_vault_window_b" />
+      <object name="a_vault_door_b" />
+      <object name="a_vault_door_a" />
+      <object name="a_sound_source_left" />
+      <object name="a_sound_source_right" />
+  	  </animation_group>
+  	</animations> 
+		<bodies>
+		<body name="body_animated" enabled="false" template="animated">
+			<object name="rp_dah_prop_vault_door" />
+			<object name="c_vault_door_holders" collision_type="box" padding="-2.5" />
+			<object name="c_open_door" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_01" enabled="true" template="animated">
+			<object name="a_vault_door_a" />
+			<object name="c_convex_door_a_04" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_a_03" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_a_02" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_a_01" collision_type="convex" padding="-2.5" />
+			<object name="c_box_door_a_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_20" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_a_23" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_collision_02" enabled="true" template="animated">
+			<object name="a_vault_door_b" />
+			<object name="c_convex_door_b_04" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_b_03" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_b_02" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_b_01" collision_type="convex" padding="-2.5" />
+			<object name="c_box_door_b_23" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_20" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_b_01" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal">
+		<decal_mesh name="dm_vault_door_a" 			enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_door_b" 			enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_door_holders" 	enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_wheel_a" 		enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_wheel_b" 		enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_wheel_s_a" 		enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_wheel_s_b" 		enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_window_a" 		enabled="true" 		material="metal" />
+		<decal_mesh name="dm_vault_window_b" 		enabled="true" 		material="metal" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_vault_door_holders" 		enabled="true" />
+		<object name="g_vault_window_a" 			enabled="true" />
+		<object name="g_vault_wheel_s_a" 			enabled="true" />
+		<object name="g_vault_wheel_a" 				enabled="true" />
+		<object name="g_vault_door_a" 				enabled="true" />
+		<object name="g_vault_door_b" 				enabled="true" />
+		<object name="g_vault_window_b" 			enabled="true" />
+		<object name="g_vault_wheel_s_b" 			enabled="true" />
+		<object name="g_vault_wheel_b" 				enabled="true" />
+		</graphics>
+</dynamic_object>
