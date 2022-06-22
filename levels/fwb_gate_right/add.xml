@@ -383,8 +383,8 @@
 		<unit path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor" type="unit">
-		<unit path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
-		<object path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
 		<material_config path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
+		<object path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
+		<unit path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
 	</add>
 </table>
