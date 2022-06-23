@@ -272,33 +272,6 @@
 		<object path="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_small"/>
 		<unit path="units/pd2_dlc_flat/props/flt_prop_streetplanters_ground/flt_prop_streetplanters_ground_small"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger" type="unit">
-		<material_config path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger_silver"/>
-		<effect load="true" path="effects/payday2/particles/window/storefront_window_small"/>
-		<material_config path="units/payday2/props/dest_glass/glass_shatter"/>
-		<effect load="true" path="effects/particles/bullet_hit/misc/misc_tire"/>
-		<object path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger"/>
-		<sequence_manager path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger"/>
-		<unit path="units/pd2_dlc_flat/vehicles/flt_vehicle_car_charger/flt_vehicle_car_charger"/>
-	</add>
-	<add from_db="true" path="units/world/props/hotel/lamps/wall_lamp/wall_lamp" type="unit">
-		<material_config path="units/world/props/hotel/lamps/wall_lamp/wall_lamp"/>
-		<object path="units/world/props/hotel/lamps/wall_lamp/wall_lamp"/>
-		<unit path="units/world/props/hotel/lamps/wall_lamp/wall_lamp"/>
-	</add>
-	<add from_db="true" path="units/pd2_mcmansion/props/mcm_prop_hallway_wall_lamp/mcm_prop_hallway_wall_lamp" type="unit">
-		<bnk path="soundbanks/regular_sfx"/>
-		<effect load="true" path="effects/payday2/particles/flares/indoor_lamp_small"/>
-		<material_config path="units/pd2_mcmansion/props/mcm_prop_hallway_wall_lamp/mcm_prop_hallway_wall_lamp_on"/>
-		<object path="units/pd2_mcmansion/props/mcm_prop_hallway_wall_lamp/mcm_prop_hallway_wall_lamp"/>
-		<sequence_manager path="units/pd2_mcmansion/props/mcm_prop_hallway_wall_lamp/mcm_prop_hallway_wall_lamp"/>
-		<unit path="units/pd2_mcmansion/props/mcm_prop_hallway_wall_lamp/mcm_prop_hallway_wall_lamp"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_small_wall_lamp/chca_prop_small_wall_lamp" type="unit">
-		<material_config path="units/pd2_dlc_chca/props/chca_prop_small_wall_lamp/chca_prop_small_wall_lamp"/>
-		<object path="units/pd2_dlc_chca/props/chca_prop_small_wall_lamp/chca_prop_small_wall_lamp"/>
-		<unit path="units/pd2_dlc_chca/props/chca_prop_small_wall_lamp/chca_prop_small_wall_lamp"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp" type="unit">
 		<material_config path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp"/>
 		<object path="units/pd2_dlc_dah/props/dah_prop_wall_lamp/dah_prop_wall_lamp"/>
@@ -311,36 +284,6 @@
 		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_wall_lamp_b/dah_prop_wall_lamp_b"/>
 		<unit path="units/pd2_dlc_dah/props/dah_prop_wall_lamp_b/dah_prop_wall_lamp_b"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_fex/props/fex_prop_wall_lamp/fex_prop_wall_lamp_01" type="unit">
-		<material_config path="units/pd2_dlc_fex/props/fex_prop_wall_lamp/fex_prop_wall_lamp_01"/>
-		<object path="units/pd2_dlc_fex/props/fex_prop_wall_lamp/fex_prop_wall_lamp_01"/>
-		<sequence_manager path="units/pd2_dlc_fex/props/fex_prop_wall_lamp/fex_prop_wall_lamp_01"/>
-		<unit path="units/pd2_dlc_fex/props/fex_prop_wall_lamp/fex_prop_wall_lamp_01"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_pal/props/pal_prop_int_wall_lamp_lit/pal_prop_int_wall_lamp_lit" type="unit">
-		<material_config path="units/pd2_dlc_pal/props/pal_prop_int_wall_lamp_lit/pal_prop_int_wall_lamp_lit"/>
-		<object path="units/pd2_dlc_pal/props/pal_prop_int_wall_lamp_lit/pal_prop_int_wall_lamp_lit"/>
-		<sequence_manager path="units/pd2_dlc_pal/props/pal_prop_int_wall_lamp_lit/pal_prop_int_wall_lamp_lit"/>
-		<unit path="units/pd2_dlc_pal/props/pal_prop_int_wall_lamp_lit/pal_prop_int_wall_lamp_lit"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a" type="unit">
-		<unit path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a"/>
-		<object path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a"/>
-		<material_config path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs"/>
-		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_stairs_lobby_poles_a"/>
-		<unit path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_balustrade_debris"/>
-		<object path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_balustrade_debris"/>
-		<material_config path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_baluster"/>
-		<sequence_manager path="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_balustrade_debris"/>
-		<effect load="true" path="effects/payday2/particles/destruction/dest_statue_bust"/>
-		<physic_effect path="physic_effects/push_sphere_unit"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_security_desk/dah_prop_security_desk" type="unit">
-		<material_config path="units/pd2_dlc_dah/props/dah_prop_security_desk/dah_prop_security_desk"/>
-		<object path="units/pd2_dlc_dah/props/dah_prop_security_desk/dah_prop_security_desk"/>
-		<sequence_manager path="units/pd2_dlc_dah/props/dah_prop_security_desk/dah_prop_security_desk"/>
-		<unit path="units/pd2_dlc_dah/props/dah_prop_security_desk/dah_prop_security_desk"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_dah/props/dah_prop_floor_lamp/dah_prop_floor_lamp" type="unit">
 		<material_config path="units/pd2_dlc_dah/props/dah_prop_floor_lamp/dah_prop_floor_lamp"/>
 		<object path="units/pd2_dlc_dah/props/dah_prop_floor_lamp/dah_prop_floor_lamp"/>
@@ -352,39 +295,37 @@
 		<object path="units/pd2_dlc_dah/props/dah_prop_trash_can/dah_prop_trash_can"/>
 		<unit path="units/pd2_dlc_dah/props/dah_prop_trash_can/dah_prop_trash_can"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01" type="unit">
-		<material_config path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01"/>
-		<object path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01"/>
-		<unit path="units/pd2_dlc_vit/props/vit_prop_oval_office_chair_01/vit_prop_oval_office_chair_01"/>
+	<add>
+		<material_config path="units/pd2_mod_custom/pickups/gold_bars/gold_bars" unload="true"/>
+		<material_config path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_contour" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_df" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_nm" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_gsma" unload="true"/>
+		<model path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_a" unload="true"/>
+		<object path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_a" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/pickups/gold_bars/gold_bars" unload="true"/>
+		<unit path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_a" unload="true"/>
 	</add>
-	<add from_db="true" path="units/world/props/office/chair/office_chair_boss" type="unit">
-		<material_config path="units/world/props/office/chair/office_chair_boss"/>
-		<object path="units/world/props/office/chair/office_chair_boss"/>
-		<unit path="units/world/props/office/chair/office_chair_boss"/>
+	<add>
+		<material_config path="units/pd2_mod_custom/pickups/gold_bars/gold_bars" unload="true"/>
+		<material_config path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_contour" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_df" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_nm" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_gsma" unload="true"/>
+		<model path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_b" unload="true"/>
+		<object path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_b" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/pickups/gold_bars/gold_bars" unload="true"/>
+		<unit path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_b" unload="true"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive" type="unit">
-		<material_config path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive"/>
-		<object path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive"/>
-		<unit path="units/payday2/props/stn_prop_office_chair_executive/stn_prop_office_chair_executive"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular" type="unit">
-		<material_config path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular"/>
-		<object path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular"/>
-		<unit path="units/payday2/props/stn_prop_office_chair_regular/stn_prop_office_chair_regular"/>
-	</add>
-	<add from_db="true" path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple" type="unit">
-		<material_config path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple"/>
-		<object path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple"/>
-		<unit path="units/pd2_dlc_friend/props/sfm_prop_office_chair_simple/sfm_prop_office_chair_simple"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive" type="unit">
-		<material_config path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive"/>
-		<object path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive"/>
-		<unit path="units/payday2/props/bnk_prop_office_chair_executive/bnk_prop_office_chair_executive"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor" type="unit">
-		<material_config path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
-		<object path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
-		<unit path="units/payday2/props/stn_prop_office_chair_visitor/stn_prop_office_chair_visitor"/>
+	<add>
+		<material_config path="units/pd2_mod_custom/pickups/gold_bars/gold_bars" unload="true"/>
+		<material_config path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_contour" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_df" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_nm" unload="true"/>
+		<texture path="units/pd2_mod_custom/pickups/gold_bars/gold_bars_gsma" unload="true"/>
+		<model path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_c" unload="true"/>
+		<object path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_c" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/pickups/gold_bars/gold_bars" unload="true"/>
+		<unit path="units/pd2_mod_custom/pickups/gold_bars/gen_pku_gold_c" unload="true"/>
 	</add>
 </table>
