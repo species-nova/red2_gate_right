@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/props/red_prop_railings/red_prop_railing" orientation_object="rp_red_prop_railing_stairs_01" />
+	<sequence_manager file="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" />
+	<bodies>
+		<body name="full_body" enabled="true" template="static">
+			<object name="c_railing_full" collision_type="mesh_mopp" />
+		</body>
+		<body name="dest_body" enabled="true" template="static">
+			<object name="c_railing_dest" collision_type="mesh_mopp" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window_1" enabled="true" template="static">
+			<object name="rp_red_prop_railing_stairs_01" />
+			<object name="c_window_1" collision_type="mesh_mopp" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window_2" enabled="true" template="static">
+			<object name="rp_red_prop_railing_stairs_01" />
+			<object name="c_window_2" collision_type="mesh_mopp" />
+		</body>
+		<body remove_ray_type="vis_graph ai_vision" name="window_3" enabled="true" template="static">
+			<object name="rp_red_prop_railing_stairs_01" />
+			<object name="c_window_3" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal_hollow" static="true">
+		<decal_mesh name="c_window_1" enabled="true" material="glass_breakable" />
+		<decal_mesh name="c_window_2" enabled="true" material="glass_breakable" />
+		<decal_mesh name="c_window_3" enabled="true" material="glass_breakable" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_railing_full" enabled="true" />
+		<object name="g_railing_dest" enabled="false" />
+		<object name="g_window_1" enabled="true" />
+		<object name="g_window_2" enabled="true" />
+		<object name="g_window_3" enabled="true" />
+		<object name="g_window_1_dmg" enabled="false" />
+		<object name="g_window_2_dmg" enabled="false" />
+		<object name="g_window_3_dmg" enabled="false" />
+	</graphics>
+	<objects>
+		<align_point name="e_window_1" enabled="true" parent="rp_red_prop_railing_stairs_01" position="0 0 0" rotation="0 0 0" />
+		<align_point name="e_window_2" enabled="true" parent="rp_red_prop_railing_stairs_01" position="0 0 0" rotation="0 0 0" />
+		<align_point name="e_window_3" enabled="true" parent="rp_red_prop_railing_stairs_01" position="0 0 0" rotation="0 0 0" />
+	</objects>
+	<objects>
+		<object name="snap_01" enabled="true" />
+		<object name="snap_02" enabled="true" />
+		<object name="snap_03" enabled="true" />
+		<object name="snap_04" enabled="true" />
+		<object name="snap_05" enabled="true" />
+		<object name="snap_06" enabled="true" />
+		<object name="snap_07" enabled="true" />
+		<object name="snap_08" enabled="true" />
+		<object name="snap_09" enabled="true" />
+		<object name="snap_10" enabled="true" />
+		<object name="snap_11" enabled="true" />
+		<object name="snap_12" enabled="true" />
+		<object name="snap_13" enabled="true" />
+		<object name="snap_14" enabled="true" />
+		<object name="snap_15" enabled="true" />
+		<object name="snap_16" enabled="true" />
+		<object name="snap_17" enabled="true" />
+		<object name="snap_18" enabled="true" />
+	</objects>
+</dynamic_object>

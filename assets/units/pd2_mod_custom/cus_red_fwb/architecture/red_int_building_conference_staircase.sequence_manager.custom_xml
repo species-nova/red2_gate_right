@@ -1,0 +1,39 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'explode'" triggable="true">
+			<body enabled="false" name="'body_bridge'"/>
+			<object enabled="false" name="'g_carpet_full'"/>
+			<object enabled="false" name="'g_stairs_full'"/>
+			<object enabled="true" name="'g_carpet_dest'"/>
+			<object enabled="true" name="'g_stairs_dest'"/>
+			<decal_mesh enabled="false" name="'dm_carpet_full'"/>
+			<decal_mesh enabled="false" name="'dm_marble_full'"/>
+			<decal_mesh enabled="true" name="'dm_carpet_dest'"/>
+			<decal_mesh enabled="true" name="'dm_marble_dest'"/>
+		</sequence>
+		<sequence editable_state="true" name="'reset'" triggable="true">
+			<body enabled="true" name="'body_bridge'"/>
+			<body enabled="true" name="'body_static'"/>
+			<object enabled="true" name="'g_carpet_full'"/>
+			<object enabled="true" name="'g_stairs_full'"/>
+			<object enabled="false" name="'g_carpet_dest'"/>
+			<object enabled="false" name="'g_stairs_dest'"/>
+			<decal_mesh enabled="true" name="'dm_carpet_full'"/>
+			<decal_mesh enabled="true" name="'dm_marble_full'"/>
+			<decal_mesh enabled="false" name="'dm_carpet_dest'"/>
+			<decal_mesh enabled="false" name="'dm_marble_dest'"/>
+		</sequence>
+		<sequence editable_state="true" name="'hidden'" triggable="true">
+			<body enabled="false" name="'body_bridge'"/>
+			<body enabled="false" name="'body_static'"/>
+			<object enabled="true" name="'g_carpet_full'"/>
+			<object enabled="true" name="'g_stairs_full'"/>
+			<object enabled="false" name="'g_carpet_dest'"/>
+			<object enabled="false" name="'g_stairs_dest'"/>
+			<decal_mesh enabled="false" name="'dm_carpet_full'"/>
+			<decal_mesh enabled="false" name="'dm_marble_full'"/>
+			<decal_mesh enabled="false" name="'dm_carpet_dest'"/>
+			<decal_mesh enabled="false" name="'dm_marble_dest'"/>
+		</sequence>
+	</unit>
+</table>

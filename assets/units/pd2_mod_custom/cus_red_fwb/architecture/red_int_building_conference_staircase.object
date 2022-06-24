@@ -1,0 +1,38 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" />
+	
+	<bodies>
+		<body name="body_bridge" enabled="true" template="static">
+			<object name="c_box_001" collision_type="box" padding="-2.5"/>
+		</body>
+		
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_001" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_002" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_003" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_004" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_005" collision_type="convex" padding="-2.5"/>
+		</body>
+		
+		<body name="mover_ramp" enabled="true" template="nav_walk">
+			<object name="c_mover_ramp" collision_type="mesh_mopp" />
+		</body>
+		
+	</bodies>
+	
+	<decal_surfaces default_material="marble" static="true">
+		<decal_mesh name="dm_marble_full" enabled="true" material="marble" />
+		<decal_mesh name="dm_carpet_full" enabled="true" material="carpet" />
+		<decal_mesh name="dm_marble_dest" enabled="false" material="marble" />
+		<decal_mesh name="dm_carpet_dest" enabled="false" material="carpet" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_stairs_full" enabled="true" />
+		<object name="g_stairs_dest" enabled="false" />
+		<object name="g_carpet_full" enabled="true" />
+		<object name="g_carpet_dest" enabled="false" />
+	</graphics>
+</dynamic_object>

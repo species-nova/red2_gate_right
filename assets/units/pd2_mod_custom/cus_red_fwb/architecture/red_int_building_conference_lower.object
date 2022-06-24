@@ -1,0 +1,43 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_red_int_building_conference_lower" />
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="c_office_conferance" collision_type="mesh_mopp" />
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			
+			<object name="c_mesh_ai_vision" collision_type="mesh_mopp" />
+		</body>
+		
+		<body name="mover_ramp" enabled="true" template="nav_walk">
+			<object name="c_mover_ramp" collision_type="mesh_mopp" />
+		</body>
+		
+	</bodies>
+	
+	<decal_surfaces default_material="marble" static="true">
+		<decal_mesh name="dm_wood" enabled="true" material="wood" />
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+		<decal_mesh name="dm_carpet" enabled="true" material="carpet" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_office_conferance_window_wood" enabled="true" />
+		<object name="g_office_conferance" enabled="true" />
+		<object name="g_office_conferance1" enabled="true" />
+		<object name="g_carpet" enabled="true"  />
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+	</graphics>
+</dynamic_object>

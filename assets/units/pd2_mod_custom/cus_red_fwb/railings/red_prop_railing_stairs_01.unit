@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<unit type="storm" slot="1">
+	<network sync="spawn"/>
+    <object file="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" />
+	<dependencies> 
+		<depends_on effect="effects/particles/window/bank_window_rail" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

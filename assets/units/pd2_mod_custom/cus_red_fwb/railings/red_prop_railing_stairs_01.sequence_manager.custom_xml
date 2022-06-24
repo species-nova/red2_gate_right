@@ -1,0 +1,75 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'explode'" triggable="true">
+			<object enabled="true" name="'g_railing_dest'"/>
+			<object enabled="false" name="'g_railing_full'"/>
+			<body enabled="true" name="'dest_body'"/>
+			<body enabled="false" name="'full_body'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'reset'" triggable="true">
+			<object enabled="false" name="'g_railing_dest'"/>
+			<object enabled="true" name="'g_railing_full'"/>
+			<body enabled="false" name="'dest_body'"/>
+			<body enabled="true" name="'full_body'"/>
+		</sequence>
+		
+		<sequence name="'kill_window_1_01'" once="true">
+			<object enabled="true" name="'g_window_1_dmg'"/>
+			<object enabled="false" name="'g_window_1'"/>
+		</sequence>
+		<sequence name="'kill_window_1_02'" once="true">
+			<object enabled="false" name="'g_window_1_dmg'"/>
+			<decal_mesh enabled="false" name="'c_window_1'"/>
+			<effect name="'effects/particles/window/bank_window_rail'" parent="object( 'e_window_1' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_1'"/>
+			<body enabled="false" name="'window_1'"/>
+		</sequence>
+		<body name="'window_1'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'kill_window_1_01'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'kill_window_1_02'"/>
+			</endurance>
+		</body>
+		<sequence name="'kill_window_2_01'" once="true">
+			<object enabled="true" name="'g_window_2_dmg'"/>
+			<object enabled="false" name="'g_window_2'"/>
+		</sequence>
+		<sequence name="'kill_window_2_02'" once="true">
+			<object enabled="false" name="'g_window_2_dmg'"/>
+			<decal_mesh enabled="false" name="'c_window_2'"/>
+			<effect name="'effects/particles/window/bank_window_rail'" parent="object( 'e_window_2' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_2'"/>
+			<body enabled="false" name="'window_2'"/>
+		</sequence>
+		<body name="'window_2'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'kill_window_2_01'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'kill_window_2_02'"/>
+			</endurance>
+		</body>
+		<sequence name="'kill_window_3_01'" once="true">
+			<object enabled="true" name="'g_window_3_dmg'"/>
+			<object enabled="false" name="'g_window_3'"/>
+		</sequence>
+		<sequence name="'kill_window_3_02'" once="true">
+			<object enabled="false" name="'g_window_3_dmg'"/>
+			<decal_mesh enabled="false" name="'c_window_3'"/>
+			<effect name="'effects/particles/window/bank_window_rail'" parent="object( 'e_window_3' )" position="v()"/>
+			<sound action="'play'" event="'window_small_shatter'" object="'e_window_3'"/>
+			<body enabled="false" name="'window_3'"/>
+		</sequence>
+		<body name="'window_3'">
+			<endurance bullet="1" explosion="1" melee="0.5">
+				<run_sequence name="'kill_window_3_01'"/>
+			</endurance>
+			<endurance bullet="2" explosion="1" melee="0.5">
+				<run_sequence name="'kill_window_3_02'"/>
+			</endurance>
+		</body>
+	</unit>
+</table>
