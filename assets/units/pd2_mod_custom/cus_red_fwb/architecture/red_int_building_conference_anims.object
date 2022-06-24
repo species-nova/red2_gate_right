@@ -1,0 +1,103 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" />
+	
+	<animations>
+		<animation_group name="anim_kaboom" enabled="false" >
+			<object name="anim_rubble_001" />
+			<object name="anim_rubble_002" />
+			<object name="anim_rubble_003" />
+			<object name="anim_rubble_004" />
+			<object name="anim_rubble_005" />
+			<object name="anim_rubble_006" />
+			<object name="anim_rubble_007" />
+			<object name="anim_rubble_008" />
+			<object name="anim_rubble_009" />
+			<object name="anim_rubble_010" />
+			<object name="anim_rubble_011" />
+			<object name="anim_rubble_012" />
+			<object name="anim_rubble_013" />
+			<object name="anim_rubble_014" />
+			<object name="anim_rubble_015" />
+			<object name="anim_rubble_016" />
+			<object name="anim_rubble_017" />
+			<object name="anim_rubble_018" />
+			<object name="anim_rubble_019" />
+			<object name="anim_rubble_020" />
+			<object name="anim_rubble_021" />
+			<object name="anim_rubble_022" />
+			<object name="anim_rubble_023" />
+			<object name="anim_rubble_024" />
+			<object name="anim_rubble_025" />
+			<object name="anim_rubble_026" />
+			<object name="anim_rubble_027" />
+			<object name="anim_rubble_028" />
+			<object name="anim_rubble_029" />
+			<object name="anim_rubble_030" />
+			<object name="anim_rubble_031" />
+			<object name="anim_rubble_032" />
+			<object name="anim_rubble_033" />
+			<object name="anim_rubble_034" />
+			<object name="anim_rubble_035" />
+			<object name="anim_rubble_036" />
+			<object name="anim_rubble_037" />
+			<object name="anim_rubble_038" />
+			<object name="anim_rubble_039" />
+			<object name="anim_rubble_040" />
+		</animation_group>
+	</animations>
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="g_rubble_end" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="marble" static="true">
+		<decal_mesh name="g_rubble_end" enabled="true" material="marble" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_rubble_end" enabled="true" />
+		<object name="g_rubble_001" enabled="false" />
+		<object name="g_rubble_002" enabled="false" />
+		<object name="g_rubble_003" enabled="false" />
+		<object name="g_rubble_004" enabled="false" />
+		<object name="g_rubble_005" enabled="false" />
+		<object name="g_rubble_006" enabled="false" />
+		<object name="g_rubble_007" enabled="false" />
+		<object name="g_rubble_008" enabled="false" />
+		<object name="g_rubble_009" enabled="false" />
+		<object name="g_rubble_010" enabled="false" />
+		<object name="g_rubble_011" enabled="false" />
+		<object name="g_rubble_012" enabled="false" />
+		<object name="g_rubble_013" enabled="false" />
+		<object name="g_rubble_014" enabled="false" />
+		<object name="g_rubble_015" enabled="false" />
+		<object name="g_rubble_016" enabled="false" />
+		<object name="g_rubble_017" enabled="false" />
+		<object name="g_rubble_018" enabled="false" />
+		<object name="g_rubble_019" enabled="false" />
+		<object name="g_rubble_020" enabled="false" />
+		<object name="g_rubble_021" enabled="false" />
+		<object name="g_rubble_022" enabled="false" />
+		<object name="g_rubble_023" enabled="false" />
+		<object name="g_rubble_024" enabled="false" />
+		<object name="g_rubble_025" enabled="false" />
+		<object name="g_rubble_026" enabled="false" />
+		<object name="g_rubble_027" enabled="false" />
+		<object name="g_rubble_028" enabled="false" />
+		<object name="g_rubble_029" enabled="false" />
+		<object name="g_rubble_030" enabled="false" />
+		<object name="g_rubble_031" enabled="false" />
+		<object name="g_rubble_032" enabled="false" />
+		<object name="g_rubble_033" enabled="false" />
+		<object name="g_rubble_034" enabled="false" />
+		<object name="g_rubble_035" enabled="false" />
+		<object name="g_rubble_036" enabled="false" />
+		<object name="g_rubble_037" enabled="false" />
+		<object name="g_rubble_038" enabled="false" />
+		<object name="g_rubble_039" enabled="false" />
+		<object name="g_rubble_040" enabled="false" />
+	</graphics>
+</dynamic_object>

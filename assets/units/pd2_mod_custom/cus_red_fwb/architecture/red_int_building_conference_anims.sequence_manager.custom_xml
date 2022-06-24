@@ -1,0 +1,140 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'explode'" triggable="true">
+			<animation_group enabled="true" from="0/30" name="'anim_kaboom'" to="240/30"/>
+			
+			<object enabled="true" name="'g_rubble_001'"/>
+			<object enabled="true" name="'g_rubble_002'"/>
+			<object enabled="true" name="'g_rubble_003'"/>
+			<object enabled="true" name="'g_rubble_004'"/>
+			<object enabled="true" name="'g_rubble_005'"/>
+			<object enabled="true" name="'g_rubble_006'"/>
+			<object enabled="true" name="'g_rubble_007'"/>
+			<object enabled="true" name="'g_rubble_008'"/>
+			<object enabled="true" name="'g_rubble_009'"/>
+			<object enabled="true" name="'g_rubble_010'"/>
+			<object enabled="true" name="'g_rubble_011'"/>
+			<object enabled="true" name="'g_rubble_012'"/>
+			<object enabled="true" name="'g_rubble_013'"/>
+			<object enabled="true" name="'g_rubble_014'"/>
+			<object enabled="true" name="'g_rubble_015'"/>
+			<object enabled="true" name="'g_rubble_016'"/>
+			<object enabled="true" name="'g_rubble_017'"/>
+			<object enabled="true" name="'g_rubble_018'"/>
+			<object enabled="true" name="'g_rubble_019'"/>
+			<object enabled="true" name="'g_rubble_020'"/>
+			<object enabled="true" name="'g_rubble_021'"/>
+			<object enabled="true" name="'g_rubble_022'"/>
+			<object enabled="true" name="'g_rubble_023'"/>
+			<object enabled="true" name="'g_rubble_024'"/>
+			<object enabled="true" name="'g_rubble_025'"/>
+			<object enabled="true" name="'g_rubble_026'"/>
+			<object enabled="true" name="'g_rubble_027'"/>
+			<object enabled="true" name="'g_rubble_028'"/>
+			<object enabled="true" name="'g_rubble_029'"/>
+			<object enabled="true" name="'g_rubble_030'"/>
+			<object enabled="true" name="'g_rubble_031'"/>
+			<object enabled="true" name="'g_rubble_032'"/>
+			<object enabled="true" name="'g_rubble_033'"/>
+			<object enabled="true" name="'g_rubble_034'"/>
+			<object enabled="true" name="'g_rubble_035'"/>
+			<object enabled="true" name="'g_rubble_036'"/>
+			<object enabled="true" name="'g_rubble_037'"/>
+			<object enabled="true" name="'g_rubble_038'"/>
+			<object enabled="true" name="'g_rubble_039'"/>
+			<object enabled="true" name="'g_rubble_040'"/>
+			
+			<object enabled="true" name="'g_rubble_end'" start_time="240/30"/>
+			<decal_mesh enabled="true" name="'g_rubble_end'" start_time="240/30"/>
+			<body enabled="true" name="'static_body'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_001'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_002'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_003'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_004'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_005'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_006'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_007'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_008'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_009'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_010'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_011'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_012'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_013'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_014'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_015'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_016'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_017'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_018'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_019'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_020'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_021'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_022'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_023'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_024'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_025'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_026'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_027'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_028'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_029'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_030'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_031'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_032'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_033'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_034'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_035'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_036'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_037'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_038'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_039'" start_time="240/30"/>
+			<object enabled="false" name="'g_rubble_040'" start_time="240/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'hidden'" triggable="true">
+			<animation_group enabled="false" from="0/30" name="'anim_kaboom'" to="0/30"/>
+			
+			<object enabled="false" name="'g_rubble_end'" />
+			<decal_mesh enabled="false" name="'g_rubble_end'" />
+			<body enabled="false" name="'static_body'" />
+			
+			<object enabled="false" name="'g_rubble_001'"/>
+			<object enabled="false" name="'g_rubble_002'"/>
+			<object enabled="false" name="'g_rubble_003'"/>
+			<object enabled="false" name="'g_rubble_004'"/>
+			<object enabled="false" name="'g_rubble_005'"/>
+			<object enabled="false" name="'g_rubble_006'"/>
+			<object enabled="false" name="'g_rubble_007'"/>
+			<object enabled="false" name="'g_rubble_008'"/>
+			<object enabled="false" name="'g_rubble_009'"/>
+			<object enabled="false" name="'g_rubble_010'"/>
+			<object enabled="false" name="'g_rubble_011'"/>
+			<object enabled="false" name="'g_rubble_012'"/>
+			<object enabled="false" name="'g_rubble_013'"/>
+			<object enabled="false" name="'g_rubble_014'"/>
+			<object enabled="false" name="'g_rubble_015'"/>
+			<object enabled="false" name="'g_rubble_016'"/>
+			<object enabled="false" name="'g_rubble_017'"/>
+			<object enabled="false" name="'g_rubble_018'"/>
+			<object enabled="false" name="'g_rubble_019'"/>
+			<object enabled="false" name="'g_rubble_020'"/>
+			<object enabled="false" name="'g_rubble_021'"/>
+			<object enabled="false" name="'g_rubble_022'"/>
+			<object enabled="false" name="'g_rubble_023'"/>
+			<object enabled="false" name="'g_rubble_024'"/>
+			<object enabled="false" name="'g_rubble_025'"/>
+			<object enabled="false" name="'g_rubble_026'"/>
+			<object enabled="false" name="'g_rubble_027'"/>
+			<object enabled="false" name="'g_rubble_028'"/>
+			<object enabled="false" name="'g_rubble_029'"/>
+			<object enabled="false" name="'g_rubble_030'"/>
+			<object enabled="false" name="'g_rubble_031'"/>
+			<object enabled="false" name="'g_rubble_032'"/>
+			<object enabled="false" name="'g_rubble_033'"/>
+			<object enabled="false" name="'g_rubble_034'"/>
+			<object enabled="false" name="'g_rubble_035'"/>
+			<object enabled="false" name="'g_rubble_036'"/>
+			<object enabled="false" name="'g_rubble_037'"/>
+			<object enabled="false" name="'g_rubble_038'"/>
+			<object enabled="false" name="'g_rubble_039'"/>
+			<object enabled="false" name="'g_rubble_040'"/>
+		</sequence>
+	</unit>
+</table>
