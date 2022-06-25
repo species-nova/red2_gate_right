@@ -1,0 +1,78 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group name="'drillicongroup'" visibility="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group name="'drillicongroup'" visibility="true"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'spawn_loot_crap_a'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_a'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_b'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_b'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_c'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_c'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_d'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_d'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_crap_e'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_crap_e'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_a'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_a'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_b'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_b'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_c'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_c'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_d'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_d'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_value_e'" triggable="false">
+			<spawn_unit name="'units/payday2/props/bnk_prop_vault_loot/bnk_prop_vault_loot_value_e'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'spawn_nothing'" triggable="false"/>
+		<sequence editable_state="false" name="'spawn_loot_empty'" triggable="false"/>
+		
+		<sequence editable_state="false" name="'spawn_loot_bundles_money1'" triggable="false">
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_rot('sp_spawn'..pick('','1','2','3'))" rotation="object_rot('sp_spawn2')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_bundles_money2'" triggable="false">
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn2')" rotation="object_rot('sp_spawn2')"/>
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn3')" rotation="object_rot('sp_spawn3')"/>
+		</sequence>
+		<sequence editable_state="false" name="'spawn_loot_bundles_money3'" triggable="false">
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn2')" rotation="object_rot('sp_spawn2')"/>
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn3')" rotation="object_rot('sp_spawn3')"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'int_seq_open'" once="true" triggable="false">
+			<graphic_group name="'drillicongroup'" visibility="false"/>
+			<interaction enabled="false"/>
+			<animation_group enabled="true" name="'anim'"/>
+			<body enabled="false" name="'body_door'"/>
+			<body enabled="true" name="'body_door'" start_time="20/30"/>
+			<run_sequence name=" 'spawn_loot_'..pick('bundles_money1','bundles_money2','bundles_money3','crap_a','crap_b','crap_c','crap_d','crap_e','value_a','value_a','value_a','value_b','value_c','value_d','value_b','value_c','value_d','value_e','value_e','value_e','value_a','value_b','value_c','value_d','value_e','empty','crap_d')"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'interact'" triggable="false">
+			<run_sequence name="'int_seq_open'"/>
+		</sequence>
+		
+		<body name="'body_door'">
+			<endurance lock="15">
+				<run_sequence name="'int_seq_open'"/>
+			</endurance>
+		</body>
+	</unit>
+</table>

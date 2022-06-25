@@ -1,0 +1,33 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" />
+	<animations>
+		<animation_group name="anim">
+			<object name="anim_door" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_frame" enabled="true" template="static">
+			<object name="rp_root" />
+			<object name="g_box" collision_type="mesh_mopp"/>
+		</body>
+		<body name="body_door" enabled="true" template="animated">
+			<object name="anim_door" />
+			<object name="g_door" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="steel_no_decal">
+		<decal_mesh name="g_door"	enabled="true" material="steel_no_decal" />
+		<decal_mesh name="g_box"	enabled="true" material="steel_no_decal" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="drillicongroup" 	enabled="true" culling_object="g_icon">
+			<lod_object name="drill_icon">
+					<object name="g_icon" 		enabled="true"  max_distance="150"  max_draw_lod="0" />
+					<object name="g_icon_lod1" 	enabled="true"  lod="1" />
+			</lod_object>
+		</graphic_group>
+		<object name="g_door"	enabled="true"  />
+		<object name="g_box" 	enabled="true"  />
+	</graphics>
+</dynamic_object>

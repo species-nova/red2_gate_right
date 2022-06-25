@@ -15,6 +15,7 @@
 			<value_node value="levels/narratives/classics/red2/shadow_caster/shadow_caster"/>
 			<value_node value="levels/narratives/classics/red2/env/env"/>
 			<value_node value="levels/narratives/classics/red2/lights_rob/lights_rob"/>
+			<value_node value="levels/instances/unique/brb/brb_deposit_room/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

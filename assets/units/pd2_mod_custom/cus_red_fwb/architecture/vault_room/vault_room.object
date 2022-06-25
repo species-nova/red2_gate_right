@@ -1,0 +1,23 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" />
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="c_mesh_vault" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="marble" static="true">
+		<decal_mesh name="dm_carpet" enabled="true" material="carpet" />
+		<decal_mesh name="dm_marble" enabled="true" material="marble" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_carpet" enabled="true" />
+		<object name="g_carpet_burn" enabled="false" />
+		<object name="g_safetybox" enabled="true" />
+		<object name="g_vault" enabled="true" />
+	</graphics>
+</dynamic_object>

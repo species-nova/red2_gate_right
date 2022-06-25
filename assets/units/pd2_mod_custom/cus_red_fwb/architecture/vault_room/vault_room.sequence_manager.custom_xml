@@ -1,0 +1,12 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'default'" triggable="true">
+			<object enabled="true" name="'g_carpet'" />
+			<object enabled="false" name="'g_carpet_burn'" />
+		</sequence>
+		<sequence editable_state="true" name="'burnt'" triggable="true">
+			<object enabled="false" name="'g_carpet'" />
+			<object enabled="true" name="'g_carpet_burn'" />
+		</sequence>
+	</unit>
+</table>

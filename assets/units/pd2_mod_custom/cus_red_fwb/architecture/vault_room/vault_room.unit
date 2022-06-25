@@ -1,0 +1,7 @@
+<unit type="red" slot="1">
+	<object file="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+	</extensions>
+</unit>

@@ -1,0 +1,6 @@
+<unit type="red" slot="1">
+	<object file="units/pd2_dlc_red/architecture/red_int_vault/red_int_vault" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>
