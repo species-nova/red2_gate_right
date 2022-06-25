@@ -44,14 +44,14 @@
 		<sequence editable_state="false" name="'spawn_loot_empty'" triggable="false"/>
 		
 		<sequence editable_state="false" name="'spawn_loot_bundles_money1'" triggable="false">
-			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_rot('sp_spawn'..pick('','1','2','3'))" rotation="object_rot('sp_spawn2')"/>
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_rot('sp_spawn'..pick('','1','2','3','4'))" rotation="object_rot('sp_spawn2')"/>
 		</sequence>
 		<sequence editable_state="false" name="'spawn_loot_bundles_money2'" triggable="false">
 			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn2')" rotation="object_rot('sp_spawn2')"/>
 			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn3')" rotation="object_rot('sp_spawn3')"/>
 		</sequence>
 		<sequence editable_state="false" name="'spawn_loot_bundles_money3'" triggable="false">
-			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn1')" rotation="object_rot('sp_spawn1')"/>
+			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn4')" rotation="object_rot('sp_spawn4')"/>
 			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn2')" rotation="object_rot('sp_spawn2')"/>
 			<spawn_unit name="'units/world/props/bank/money_wrap/money_wrap_single_bundle_active'" position="object_pos('sp_spawn3')" rotation="object_rot('sp_spawn3')"/>
 		</sequence>
@@ -62,7 +62,7 @@
 			<animation_group enabled="true" name="'anim'"/>
 			<body enabled="false" name="'body_door'"/>
 			<body enabled="true" name="'body_door'" start_time="20/30"/>
-			<run_sequence name=" 'spawn_loot_'..pick('bundles_money1','bundles_money2','bundles_money3','crap_a','crap_b','crap_c','crap_d','crap_e','value_a','value_a','value_a','value_b','value_c','value_d','value_b','value_c','value_d','value_e','value_e','value_e','value_a','value_b','value_c','value_d','value_e','empty','crap_d')"/>
+			<run_sequence name=" 'spawn_loot_'..pick('bundles_money1','bundles_money2','bundles_money2','bundles_money3','crap_a','crap_b','crap_c','crap_d','crap_e','value_a','value_a','value_a','value_b','value_c','value_d','value_b','value_c','value_d','value_e','value_e','value_e','value_a','value_b','value_c','value_d','value_e','empty','crap_d')"/>
 		</sequence>
 		
 		<sequence editable_state="false" name="'interact'" triggable="false">

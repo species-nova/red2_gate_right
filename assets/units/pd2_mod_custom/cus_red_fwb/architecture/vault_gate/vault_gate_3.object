@@ -1,0 +1,74 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_root" />
+	<sequence_manager file="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" />
+	
+	<animations>
+		<animation_group name="anim_door" enabled="false" >
+			<object name="anim_door" />
+		</animation_group>
+	</animations>
+	
+	
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_box_001" collision_type="box" padding="-2.5"/>
+			<object name="c_box_002" collision_type="box" padding="-2.5"/>
+			<object name="c_box_003" collision_type="box" padding="-2.5"/>
+			<object name="c_box_004" collision_type="box" padding="-2.5"/>
+			<object name="c_box_005" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_001" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_002" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_003" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_004" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_005" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_006" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_007" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_008" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_009" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_011" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_012" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_013" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_014" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_015" collision_type="capsule" padding="-2.5"/>
+		</body>
+		
+		<body name="body_animated" enabled="true" template="animated">
+			<object name="c_box_006" collision_type="box" padding="-2.5"/>
+			<object name="c_box_007" collision_type="box" padding="-2.5"/>
+			<object name="c_box_008" collision_type="box" padding="-2.5"/>
+			<object name="c_box_009" collision_type="box" padding="-2.5"/>
+			<object name="c_box_010" collision_type="box" padding="-2.5"/>
+			<object name="c_box_011" collision_type="box" padding="-2.5"/>
+			<object name="c_box_012" collision_type="box" padding="-2.5"/>
+			<object name="c_capsule_016" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_017" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_018" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_019" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_020" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_021" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_022" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_023" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_024" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_025" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_026" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_027" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_028" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_029" collision_type="capsule" padding="-2.5"/>
+			<object name="c_capsule_030" collision_type="capsule" padding="-2.5"/>
+		</body>
+		
+		<body name="body_nav_walk" enabled="true" template="nav_walk">
+			<object name="c_block" collision_type="box" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="steel" >
+		<decal_mesh name="g_gate" enabled="true" material="steel" />
+		<decal_mesh name="g_door" enabled="true" material="steel" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_gate" enabled="true" />
+		<object name="g_door" enabled="true" />
+	</graphics>
+</dynamic_object>

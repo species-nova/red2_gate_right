@@ -358,6 +358,10 @@
 		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
 		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		
 		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
 		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
 		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
@@ -374,11 +378,16 @@
 		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
 		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
 		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
 		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
 		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
 		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
-		<bnk				path="soundbanks/regular_sfx" unload="true" from_db="true"/>
 		
 		<effect				path="effects/particles/window/bank_window_rail" unload="true" from_db="true"/>
 		<unit				path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
