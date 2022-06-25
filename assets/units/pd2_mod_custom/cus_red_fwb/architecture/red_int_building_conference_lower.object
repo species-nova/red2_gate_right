@@ -37,7 +37,7 @@
 		<object name="g_office_conferance_window_wood" enabled="true" />
 		<object name="g_office_conferance" enabled="true" />
 		<object name="g_office_conferance1" enabled="true" />
-		<object name="g_carpet" enabled="true"  />
+		<object name="g_carpet2" enabled="true"  />
 		<object name="s_s" enabled="true" shadow_caster="true"/>
 	</graphics>
 </dynamic_object>
