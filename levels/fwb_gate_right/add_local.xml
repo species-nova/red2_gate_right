@@ -19,6 +19,11 @@
 	<continent path="editor_only/editor_only" script_data_type="binary"/>
 	<mission path="editor_only/editor_only" script_data_type="binary"/>
 	<cover_data path="cover_data" script_data_type="binary"/>
+	<environment path="environments/fwb_vault" script_data_type="custom_xml"/>
+	<environment path="environments/fwb_int_bank" script_data_type="custom_xml"/>
+	<environment path="environments/fwb_ext" script_data_type="custom_xml"/>
+	<environment path="environments/fwb_vault_overvault" script_data_type="custom_xml"/>
+	<environment path="environments/fwb_vault_lobby" script_data_type="custom_xml"/>
 	<texture path="cube_lights/100021"/>
 	<texture path="cube_lights/104863"/>
 	<texture path="cube_lights/100045"/>

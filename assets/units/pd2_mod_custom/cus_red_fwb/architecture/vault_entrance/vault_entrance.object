@@ -1,5 +1,5 @@
 <dynamic_object>
-	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_root"/>	
+	<diesel materials="units/pd2_dlc_red/architecture/red_vault_entrance" orientation_object="rp_root"/>	
 	<bodies>
 		<body name="body_static" enabled="true" template="static">
 			<object name="c_box_000" collision_type="box" padding="-2.5"/>
