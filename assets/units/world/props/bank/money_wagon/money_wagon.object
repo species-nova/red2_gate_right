@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<dynamic_object>
+  <diesel materials="units/world/props/bank/money_wagon/money_wagon" orientation_object="rp_money_wagon" />
+  <bodies>
+    <body name="static_body" enabled="true" template="static">
+		<object name="rp_money_wagon"/>
+      <object name="c_money_wagon" collision_type="mesh_mopp" />
+    </body>
+  </bodies>
+  <decal_surfaces default_material="metal" static="true">
+    <decal_mesh name="dm_money_wagon" enabled="true" material="metal" />
+  </decal_surfaces>
+  <graphics>
+    <object name="g_money_wagon" enabled="true" shadow_caster="false" instance_struct="world_tm"/>
+  </graphics>
+</dynamic_object>

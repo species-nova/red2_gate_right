@@ -1,0 +1,9 @@
+<materials version="3">
+    <material version="2" decal_material="metal" name="money_wagon" render_template="generic:DIFFUSE_TEXTURE:INSTANCED:NORMALMAP">
+        <bump_normal_texture file="units/world/props/bank/money_wagon/money_wagon_nm"/>
+        <diffuse_texture file="units/world/props/bank/money_wagon/money_wagon_df"/>
+    </material>
+    <material name="lambert1" render_template="generic" version="2">
+        <variable value="0" type="scalar" name="specular_power"/>
+    </material>
+</materials>
