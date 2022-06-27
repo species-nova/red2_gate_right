@@ -1,6 +1,7 @@
 <materials version="3">
-    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="safetybox" version="2">
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GLOSS_BLURS_CUBEMAP:GSMA_TEXTURE:NORMALMAP" name="safetybox" version="2">
         <diffuse_texture file="units/world/props/bank/safety_box/safety_box_df"/>
+		<material_texture file="units/world/props/bank/safety_box/safety_box_gsma"/>
         <reflection_texture type="cubemap" global_texture="current_global_texture"/>
         <variable type="vector3" name="environment_settings" value="1 0 0.20000000298023"/>
         <bump_normal_texture file="units/world/props/bank/safety_box/safety_box_nm"/>

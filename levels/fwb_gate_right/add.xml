@@ -350,7 +350,6 @@
 		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
 		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
 		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/stonecold_vault" unload="true"/>
-		<texture path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_metal_df" unload="true"/>
 		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
 		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
 		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
@@ -387,6 +386,7 @@
 		<model path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
 		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
 		<effect from_db="true" path="effects/particles/window/bank_window_rail" unload="true"/>
+		<texture path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_metal_df" unload="true"/>
 	</add>
 	<add from_db="true" path="core/environments/skies/sky_0902_overcast/sky_0902_overcast" type="scene">
 		<material_config path="core/environments/skies/sky_0902_overcast/sky_0902_overcast"/>
@@ -424,5 +424,260 @@
 		<material_config path="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01"/>
 		<object path="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01"/>
 		<unit path="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01"/>
+	</add>
+	<add from_db="true" path="units/pd2_mcmansion/vegetation/str_veg_residential_bush/str_veg_residential_bush_a" type="unit">
+		<material_config path="units/pd2_mcmansion/vegetation/str_veg_residential_bush/str_veg_residential_tree_a"/>
+		<object path="units/pd2_mcmansion/vegetation/str_veg_residential_bush/str_veg_residential_bush_a"/>
+		<unit path="units/pd2_mcmansion/vegetation/str_veg_residential_bush/str_veg_residential_bush_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/vegetation/mus_veg_park_japanesemaple/mus_veg_park_japanesemaple" type="unit">
+		<material_config path="units/pd2_indiana/vegetation/mus_veg_park_japanesemaple/mus_veg_park_japanesemaple"/>
+		<object path="units/pd2_indiana/vegetation/mus_veg_park_japanesemaple/mus_veg_park_japanesemaple"/>
+		<unit path="units/pd2_indiana/vegetation/mus_veg_park_japanesemaple/mus_veg_park_japanesemaple"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_xmn/vegetation/xmn_veg_winter_tree_linden_smallest/xmn_veg_winter_tree_linden_smallest" type="unit">
+		<material_config path="units/pd2_dlc_xmn/vegetation/xmn_veg_winter_tree_linden_smallest/xmn_veg_winter_tree_linden_smallest"/>
+		<object path="units/pd2_dlc_xmn/vegetation/xmn_veg_winter_tree_linden_smallest/xmn_veg_winter_tree_linden_smallest"/>
+		<unit path="units/pd2_dlc_xmn/vegetation/xmn_veg_winter_tree_linden_smallest/xmn_veg_winter_tree_linden_smallest"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_xmn/vegetation/xmn_veg_street_planter_cypress/xmn_veg_street_planter_cypress" type="unit">
+		<material_config path="units/pd2_dlc_xmn/vegetation/xmn_veg_street_planter_cypress/xmn_veg_street_planter_cypress"/>
+		<object path="units/pd2_dlc_xmn/vegetation/xmn_veg_street_planter_cypress/xmn_veg_street_planter_cypress"/>
+		<unit path="units/pd2_dlc_xmn/vegetation/xmn_veg_street_planter_cypress/xmn_veg_street_planter_cypress"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_desertfanpalm/rvd_veg_tree_desertfanpalm_large" type="unit">
+		<material_config path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_desertfanpalm/rvd_veg_tree_desertfanpalm_large"/>
+		<object path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_desertfanpalm/rvd_veg_tree_desertfanpalm_large"/>
+		<unit path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_desertfanpalm/rvd_veg_tree_desertfanpalm_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_canarypalm/rvd_veg_tree_canarypalm_medium" type="unit">
+		<material_config path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_canarypalm/rvd_veg_tree_canarypalm_large"/>
+		<object path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_canarypalm/rvd_veg_tree_canarypalm_medium"/>
+		<unit path="units/pd2_dlc_rvd/vegetation/rvd_veg_tree_canarypalm/rvd_veg_tree_canarypalm_medium"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_small" type="unit">
+		<material_config path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
+		<object path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_small"/>
+		<unit path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_small"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large" type="unit">
+		<material_config path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
+		<object path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
+		<unit path="units/pd2_dlc_rvd/vegetation/rvd_veg_bush_windmillpalm/rvd_veg_bush_windmillpalm_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_yucca_group" type="unit">
+		<material_config path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrubbery"/>
+		<object path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_yucca_group"/>
+		<unit path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_yucca_group"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_shin_oak_group" type="unit">
+		<material_config path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrubbery"/>
+		<object path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_shin_oak_group"/>
+		<unit path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_shin_oak_group"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/vegetation/ranc_brush_wildflowers/ranc_brush_wildflowers_tahoka_daisy" type="unit">
+		<material_config path="units/pd2_dlc_ranc/vegetation/ranc_brush_wildflowers/ranc_brush_wildflowers"/>
+		<object path="units/pd2_dlc_ranc/vegetation/ranc_brush_wildflowers/ranc_brush_wildflowers_tahoka_daisy"/>
+		<unit path="units/pd2_dlc_ranc/vegetation/ranc_brush_wildflowers/ranc_brush_wildflowers_tahoka_daisy"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large_b" type="unit">
+		<material_config path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large"/>
+		<object path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large_b"/>
+		<unit path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large_a" type="unit">
+		<material_config path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large"/>
+		<object path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large_a"/>
+		<unit path="units/pd2_dlc_peta/vegetation/pta_2/pta_veg_tree_oak_large/pta_veg_tree_oak_large_a"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/vegetation/pta_1/pta_veg_park_tree_cherry/pta_veg_park_tree_cherry_b" type="unit">
+		<material_config path="units/pd2_dlc_peta/vegetation/pta_1/pta_veg_park_tree_cherry/pta_veg_park_tree_cherry_trees"/>
+		<object path="units/pd2_dlc_peta/vegetation/pta_1/pta_veg_park_tree_cherry/pta_veg_park_tree_cherry_b"/>
+		<unit path="units/pd2_dlc_peta/vegetation/pta_1/pta_veg_park_tree_cherry/pta_veg_park_tree_cherry_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree_medium" type="unit">
+		<material_config path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree"/>
+		<object path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree_medium"/>
+		<unit path="units/pd2_dlc_holly/river/vegetation/lxa_veg_palmtree/lxa_veg_palmtree_medium"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted_b" type="unit">
+		<material_config path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted"/>
+		<object path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted_b"/>
+		<unit path="units/pd2_dlc_chill/vegetation/chl_veg_plant_benjaminficus_planted/chl_veg_plant_benjaminficus_planted_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/vegetation/bry_vegetation_tree/bry_vegetation_tree_b" type="unit">
+		<material_config path="units/pd2_dlc_holly/mansion/vegetation/lxa_vegetation_tree/lxa_vegetation_tree_a"/>
+		<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_tree/bry_vegetation_tree_b"/>
+		<unit path="units/pd2_dlc_berry/vegetation/bry_vegetation_tree/bry_vegetation_tree_b"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_a" type="unit">
+		<material_config path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_a"/>
+		<object path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_a"/>
+		<unit path="units/pd2_dlc_berry/vegetation/bry_vegetation_bush_large/bry_vegetation_bush_large_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_b" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_b"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_a" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_a"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_goldenrain/str_veg_park_tree_goldenrain_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_tree_bitternuthickory/str_veg_park_tree_bitternuthickory" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_bitternuthickory/str_veg_park_tree_bitternuthickory"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_bitternuthickory/str_veg_park_tree_bitternuthickory"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_bitternuthickory/str_veg_park_tree_bitternuthickory"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_c" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_c"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_c"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_a" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_a"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_b" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm"/>
+		<object path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_b"/>
+		<unit path="units/payday2/vegetation/str_veg_park_tree_americanelm/str_veg_park_tree_americanelm_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac"/>
+		<object path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half"/>
+		<unit path="units/payday2/vegetation/str_veg_park_bush_sumac/str_veg_park_bush_sumac_half"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall_bckdrop"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_ground_16x16m" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_wall"/>
+		<object path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_ground_16x16m"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_wall/str_veg_forest_ground_16x16m"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_4/str_veg_forest_tree_b_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_3/str_veg_forest_tree_b_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_2/str_veg_forest_tree_b_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_b_1/str_veg_forest_tree_b_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_a_2/str_veg_forest_tree_a_2"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_a_3/str_veg_forest_tree_a_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1"/>
+		<object path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1"/>
+		<unit path="units/payday2/vegetation/str_veg_forest_tree_a_1/str_veg_forest_tree_a_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_b" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense"/>
+		<object path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_b"/>
+		<unit path="units/payday2/vegetation/str_veg_bush_dense/str_veg_bush_dense_b"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina" type="unit">
+		<material_config path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina"/>
+		<object path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina"/>
+		<unit path="units/payday2/vegetation/str_veg_bush_juniperus/bush_juniperus_sabina"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin_d" type="unit">
+		<material_config path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin"/>
+		<object path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin_d"/>
+		<unit path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin_d"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin_a" type="unit">
+		<material_config path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin"/>
+		<object path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin_a"/>
+		<unit path="units/payday2/vegetation/lxa_veg_tree_thin/lxa_veg_tree_thin_a"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green_potted" type="unit">
+		<material_config path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green"/>
+		<object path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green_potted"/>
+		<unit path="units/payday2/vegetation/com_veg_plant_green/com_veg_plant_green_potted"/>
+	</add>
+	<add from_db="true" path="units/payday2/vegetation/com_veg_plant_benjaminficus_planted/com_veg_plant_benjaminficus_planted_b" type="unit">
+		<material_config path="units/payday2/vegetation/com_veg_plant_benjaminficus_planted/com_veg_plant_benjaminficus_planted"/>
+		<object path="units/payday2/vegetation/com_veg_plant_benjaminficus_planted/com_veg_plant_benjaminficus_planted_b"/>
+		<unit path="units/payday2/vegetation/com_veg_plant_benjaminficus_planted/com_veg_plant_benjaminficus_planted_b"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01" type="unit">
+		<material_config path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+		<object path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+		<unit path="units/world/vegetation/forest/zones/forest/fst_backdrop_forest/fst_backdrop_forest_01"/>
+	</add>
+	<add from_db="true" path="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1" type="unit">
+		<material_config path="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1"/>
+		<object path="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1"/>
+		<unit path="units/world/vegetation/forest/zones/forest/zone_forrest_bush_1/zone_forrest_bush_1"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop_oakland_bridge" type="unit">
+		<material_config path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop"/>
+		<object path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop_oakland_bridge"/>
+		<unit path="units/pd2_dlc_sand/architecture/backdrop/sand_ext_backdrop_oakland_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_shin_oak" type="unit">
+		<material_config path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrubbery"/>
+		<object path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_shin_oak"/>
+		<unit path="units/pd2_dlc_ranc/vegetation/ranc_veg_prop_shrubbery/ranc_veg_prop_shrub_shin_oak"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak_big" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak_big"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak_big"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak" type="unit">
+		<material_config path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak"/>
+		<object path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak"/>
+		<unit path="units/payday2/nature/eus/eus_veg_forest_tree_redoak/eus_veg_forest_tree_redoak"/>
+	</add>
+	<add from_db="true" path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak_medium" type="unit">
+		<material_config path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak"/>
+		<object path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak_medium"/>
+		<unit path="units/payday2/nature/pnau/pnau_tree_oak/pnau_tree_oak_medium"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance" type="unit">
+		<material_config path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance"/>
+		<object path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance"/>
+		<unit path="units/payday2/props/str_prop_park_fence/str_prop_park_red_oak_entrance"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_oakland_bridge" type="unit">
+		<material_config path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_skyline"/>
+		<object path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_oakland_bridge"/>
+		<unit path="units/pd2_dlc_chas/architecture/ext/backdrop/chas_ext_backdrop_oakland_bridge"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/props/vit_prop_veg_tree_redoak/vit_prop_veg_tree_redoak" type="unit">
+		<material_config path="units/pd2_dlc_vit/props/vit_prop_veg_tree_redoak/vit_prop_veg_tree_redoak"/>
+		<object path="units/pd2_dlc_vit/props/vit_prop_veg_tree_redoak/vit_prop_veg_tree_redoak"/>
+		<unit path="units/pd2_dlc_vit/props/vit_prop_veg_tree_redoak/vit_prop_veg_tree_redoak"/>
 	</add>
 </table>
