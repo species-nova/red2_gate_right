@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension name="base" class="SmallLootBase">
+			<var name="small_loot" value="gen_atm" />
+			<var name="skip_remove_unit" value="true" />
+		</extension>
+		<extension name="interaction" class="SmallLootInteractionExt">
+			<var name="tweak_data" value="money_small" />
+		</extension>
+	</extensions>
+</unit>

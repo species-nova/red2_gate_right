@@ -1,0 +1,49 @@
+<table>
+	<unit>
+		<body name="'saw_body'">
+			<endurance lock="35" >
+				<run_sequence name="'saw_open'"/>
+			</endurance>
+		</body>
+		
+		<sequence editable_state="true" name="'enable_interaction'" triggable="true">
+			<interaction enabled="true"/>
+			<graphic_group visibility="true" name="'drillicongroup'"/>
+			<body enabled="true" name="'saw_body'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'disable_interaction'" triggable="true">
+			<interaction enabled="false"/>
+			<graphic_group visibility="false" name="'drillicongroup'"/>
+			<body enabled="false" name="'saw_body'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'interact'" triggable="true">
+			<run_sequence name="'anim_door_open'"/>
+		</sequence>
+		
+		<sequence editable_state="false" name="'saw_open'" triggable="true">
+			<run_sequence name="'anim_door_open'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_door_open'" triggable="true">
+			<run_sequence name="'disable_interaction'"/>
+			<body enabled="true" name="'animated_body'"/>
+			<object name="'g_door_cover'" enabled="true" />
+			<animation_group enabled="true" from="0/30" name="'anim_door'" speed="1" to="40/30"/>
+			<run_sequence name="'show_loot'" start_time="30/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'anim_door_close'" triggable="true">
+			<object name="'g_door_cover'" enabled="false" />
+			<animation_group enabled="true" from="70/30" name="'anim_door'" speed="1" to="160/30"/>
+			<run_sequence name="'done_closed'" start_time="30/30"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show_loot'" triggable="true">
+		</sequence>
+		
+		<sequence editable_state="true" name="'done_closed'" triggable="true">
+		</sequence>
+	</unit>
+</table>

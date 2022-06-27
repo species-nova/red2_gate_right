@@ -1,0 +1,100 @@
+<table>
+	<unit>
+		<variables>
+			<var_interactions value="0"/>
+			<var_money_1 value="1"/>
+			<var_money_2 value="1"/>
+			<var_money_3 value="1"/>
+			<var_money_4 value="1"/>
+			<var_money_5 value="1"/>
+		</variables>
+		
+		<filter name="'filter_empty'">
+			<check value="vars.var_interactions >= 5"/>
+		</filter>
+		<filter name="'filter_not_empty'">
+			<check value="vars.var_interactions < 5"/>
+		</filter>
+		
+		<filter name="'filter_no_money_1'"> <check value="vars.var_money_1 == 0"/> </filter>
+		<filter name="'filter_no_money_2'"> <check value="vars.var_money_2 == 0"/> </filter>
+		<filter name="'filter_no_money_3'"> <check value="vars.var_money_3 == 0"/> </filter>
+		<filter name="'filter_no_money_4'"> <check value="vars.var_money_4 == 0"/> </filter>
+		<filter name="'filter_no_money_5'"> <check value="vars.var_money_5 == 0"/> </filter>
+		
+		<sequence editable_state="true" name="'interact'" triggable="true">
+			<set_variables var_interactions="vars.var_interactions + 1"/>
+			
+			<interaction  filter="'filter_not_empty'"	enabled="true" start_time="0.1"/>
+			<run_sequence filter="'filter_not_empty'"	name="'hide_money_'..pick('1','2','3','4','5')"/>
+			<run_sequence filter="'filter_empty'"		name="'hide'"/>
+			<run_sequence filter="'filter_empty'"		name="'done_looted'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<interaction enabled="true"/>
+			<decal_mesh enabled="true" name="'g_money_1_lod0'"/>
+			<graphic_group visibility="true" name="'grp_money_1'"/>
+			<decal_mesh enabled="true" name="'g_money_2_lod0'"/>
+			<graphic_group visibility="true" name="'grp_money_2'"/>
+			<decal_mesh enabled="true" name="'g_money_3_lod0'"/>
+			<graphic_group visibility="true" name="'grp_money_3'"/>
+			<decal_mesh enabled="true" name="'g_money_4_lod0'"/>
+			<graphic_group visibility="true" name="'grp_money_4'"/>
+			<decal_mesh enabled="true" name="'g_money_5_lod0'"/>
+			<graphic_group visibility="true" name="'grp_money_5'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<interaction enabled="false"/>
+			<decal_mesh enabled="false" name="'g_money_1_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_1'"/>
+			<decal_mesh enabled="false" name="'g_money_2_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_2'"/>
+			<decal_mesh enabled="false" name="'g_money_3_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_3'"/>
+			<decal_mesh enabled="false" name="'g_money_4_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_4'"/>
+			<decal_mesh enabled="false" name="'g_money_5_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_5'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'done_looted'" triggable="true">
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_money_1'" triggable="true">
+			<run_sequence filter="'filter_no_money_1'" name="'hide_money_2'"/>
+			<set_variables var_money_1="0"/>
+			<decal_mesh enabled="false" name="'g_money_1_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_1'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_money_2'" triggable="true">
+			<run_sequence filter="'filter_no_money_2'" name="'hide_money_3'"/>
+			<set_variables var_money_2="0"/>
+			<decal_mesh enabled="false" name="'g_money_2_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_2'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_money_3'" triggable="true">
+			<run_sequence filter="'filter_no_money_3'" name="'hide_money_4'"/>
+			<set_variables var_money_3="0"/>
+			<decal_mesh enabled="false" name="'g_money_3_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_3'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_money_4'" triggable="true">
+			<run_sequence filter="'filter_no_money_4'" name="'hide_money_5'"/>
+			<set_variables var_money_4="0"/>
+			<decal_mesh enabled="false" name="'g_money_4_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_4'"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'hide_money_5'" triggable="true">
+			<run_sequence filter="'filter_no_money_5'" name="'hide_money_1'"/>
+			<set_variables var_money_5="0"/>
+			<decal_mesh enabled="false" name="'g_money_5_lod0'"/>
+			<graphic_group visibility="false" name="'grp_money_5'"/>
+		</sequence>
+	</unit>
+</table>
