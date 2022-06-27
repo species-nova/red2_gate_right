@@ -425,12 +425,21 @@
 		<unit path="units/world/props/bank/money_wagon/money_wagon" unload="true"/>
 	</add>
 	<add>
-		<texture path="units/world/architecture/bank/textures/bank_atlas_df" unload="true"/>
-		<cooked_physics path="units/world/architecture/bank/bank_vault/bank_vault_entrance" unload="true"/>
-		<sequence_manager path="units/world/architecture/bank/bank_vault/bank_vault_entrance" unload="true"/>
-		<material_config path="units/world/architecture/bank/bank_atlas" unload="true"/>
-		<model path="units/world/architecture/bank/bank_vault/bank_vault_entrance" unload="true"/>
-		<object path="units/world/architecture/bank/bank_vault/bank_vault_entrance" unload="true"/>
-		<unit path="units/world/architecture/bank/bank_vault/bank_vault_entrance" unload="true"/>
+		<texture path="units/world/props/bank/paintings/textures/painting_tester_df" unload="true"/>
+		<texture path="units/world/props/bank/paintings/textures/stoneplate_nm" unload="true"/>
+		<cooked_physics path="units/world/props/bank/paintings/painting_tester" unload="true"/>
+		<material_config path="units/world/props/bank/paintings/painting_tester" unload="true"/>
+		<model path="units/world/props/bank/paintings/painting_tester" unload="true"/>
+		<object path="units/world/props/bank/paintings/painting_tester" unload="true"/>
+		<unit path="units/world/props/bank/paintings/painting_tester" unload="true"/>
+	</add>
+	<add>
+		<texture path="units/world/props/bank/paintings/textures/stoneplate_df" unload="true"/>
+		<texture path="units/world/props/bank/paintings/textures/stoneplate_nm" unload="true"/>
+		<cooked_physics path="units/world/props/bank/paintings/stoneplate" unload="true"/>
+		<material_config path="units/world/props/bank/paintings/stoneplate" unload="true"/>
+		<model path="units/world/props/bank/paintings/stoneplate" unload="true"/>
+		<object path="units/world/props/bank/paintings/stoneplate" unload="true"/>
+		<unit path="units/world/props/bank/paintings/stoneplate" unload="true"/>
 	</add>
 </table>

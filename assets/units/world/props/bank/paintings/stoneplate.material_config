@@ -1,0 +1,6 @@
+<materials version="3">
+    <material version="2" name="stoneplate" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/world/props/bank/paintings/textures/stoneplate_df"/>
+        <bump_normal_texture file="units/world/props/bank/paintings/textures/stoneplate_nm"/>
+    </material>
+</materials>

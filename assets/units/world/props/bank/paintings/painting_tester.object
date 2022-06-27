@@ -1,0 +1,14 @@
+<dynamic_object>
+    <diesel orientation_object="rp_painting_tester" materials="units/world/props/bank/paintings/painting_tester" />
+    <bodies>
+        <body enabled="true" template="static" name="body0" >
+            <object collision_type="box" name="c_convex" />
+        </body>
+    </bodies>
+    <decal_surfaces>
+        <decal_mesh enabled="true" name="dm_frame" material="wood" />
+    </decal_surfaces>
+    <graphics>
+        <object enabled="true" name="g_painting" />
+    </graphics>
+</dynamic_object>
