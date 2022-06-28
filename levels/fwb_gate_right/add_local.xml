@@ -19,6 +19,9 @@
 	<continent path="editor_only/editor_only" script_data_type="binary"/>
 	<mission path="editor_only/editor_only" script_data_type="binary"/>
 	<cover_data path="cover_data" script_data_type="binary"/>
+	<texture path="cube_lights/104860"/>
+	<texture path="cube_lights/104862"/>
+	<texture path="cube_lights/104864"/>
 	<texture path="cube_lights/100043"/>
 	<texture path="cube_lights/104833"/>
 	<texture path="cube_lights/500027"/>
@@ -73,14 +76,12 @@
 	<texture path="cube_lights/101726"/>
 	<texture path="cube_lights/104861"/>
 	<texture path="cube_lights/102186"/>
-	<texture path="cube_lights/104862"/>
 	<texture path="cube_lights/104788"/>
 	<texture path="cube_lights/104852"/>
 	<texture path="cube_lights/104790"/>
 	<texture path="cube_lights/106735"/>
 	<texture path="cube_lights/104818"/>
 	<texture path="cube_lights/104853"/>
-	<texture path="cube_lights/104864"/>
 	<texture path="cube_lights/106743"/>
 	<texture path="cube_lights/104822"/>
 	<texture path="cube_lights/104840"/>
@@ -118,7 +119,6 @@
 	<texture path="cube_lights/dome_occlusion"/>
 	<texture path="cube_lights/104837"/>
 	<texture path="cube_lights/137648"/>
-	<texture path="cube_lights/104860"/>
 	<texture path="cube_lights/104835"/>
 	<texture path="cube_lights/104851"/>
 	<texture path="cube_lights/101283"/>
