@@ -19,6 +19,8 @@
 	<continent path="editor_only/editor_only" script_data_type="binary"/>
 	<mission path="editor_only/editor_only" script_data_type="binary"/>
 	<cover_data path="cover_data" script_data_type="binary"/>
+	<environment path="environments/fwb_escape_garage" script_data_type="custom_xml"/>
+	<environment path="environments/fwb_escape_stairwell" script_data_type="custom_xml"/>
 	<texture path="cube_lights/104860"/>
 	<texture path="cube_lights/104862"/>
 	<texture path="cube_lights/104864"/>
