@@ -104,57 +104,6 @@
 		<object path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
 		<unit path="units/pd2_mod_custom/cus_prop_street_barrier_fence_art/cus_prop_street_barrier_fence_art" unload="true"/>
 	</add>
-	<add>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_lower" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_lower" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_lower" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
-		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/stonecold_vault" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
-		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
-		<unit from_db="true" path="units/world/props/bank/money_wrap/money_wrap_single_bundle_active" unload="true"/>
-		<object from_db="true" path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true"/>
-		<model from_db="true" path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true"/>
-		<sequence_manager from_db="true" path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true"/>
-		<material_config from_db="true" path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
-		<effect from_db="true" path="effects/particles/window/bank_window_rail" unload="true"/>
-		<texture path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_metal_df" unload="true"/>
-	</add>
 	<add from_db="true" path="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01" type="unit">
 		<material_config path="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01"/>
 		<object path="units/pd2_dlc_run/props/run_prop_trashcan_01/run_prop_trashcan_01"/>
@@ -187,27 +136,111 @@
 		<object path="units/world/props/bank/paintings/stoneplate" unload="true"/>
 		<unit path="units/world/props/bank/paintings/stoneplate" unload="true"/>
 	</add>
+		<!-- FWB -->
 	<add>
-		<unit path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
-		<material_config path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
-		<dds path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_df" unload="true"/>
-		<dds path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_nm" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
-		<material_config path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
-		<sequence_manager path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_lower" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_lower" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_lower" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_staircase" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/red_int_building_conference_anims" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_room/vault_room" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
+		<material_config	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_box_single" unload="true"/>
+		<unit				path="units/world/props/bank/money_wrap/money_wrap_single_bundle_active" unload="true" from_db="true"/>
+		<object				path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true" from_db="true"/>
+		<model				path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true" from_db="true"/>
+		<sequence_manager	path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true" from_db="true"/>
+		<material_config	path="units/world/props/bank/money_wrap/money_wrap_single_bundle" unload="true" from_db="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_3" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate_2" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_gate/vault_gate" unload="true"/>
+		<bnk				path="soundbanks/regular_sfx" unload="true" from_db="true"/>
+		
+		<material_config	path="units/pd2_dlc_red/props/red_prop_railings/red_prop_railing" unload="true" from_db="true"/>
+		<effect				path="effects/particles/window/bank_window_rail" unload="true" from_db="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/railings/red_prop_railing_stairs_01" unload="true"/>
+		
+		<material_config	path="units/payday2/mockup/occluder_plane" unload="true" from_db="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/occluder/red_occluder" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/occluder/red_occluder" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/occluder/red_occluder" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_red_fwb/occluder/red_occluder" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/carpets/carpet_left" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/carpets/carpet_left" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/carpets/carpet_left" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/carpets/carpet_right" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/carpets/carpet_right" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/carpets/carpet_right" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
+		 
 	</add>
+	<!-- FWB -->
+
+	<!-- FWB - Wagon -->
 	<add>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_big" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_big" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_big" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_medium" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_medium" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_medium" unload="true"/>
-		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
+		<material_config	path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
+		<dds				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_df" unload="true"/>
+		<dds				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_nm" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
+		
+		<unit				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
+		<material_config	path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
+		<sequence_manager	path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon_loot" unload="true"/>
 	</add>
+	<!-- FWB - Wagon -->
+
+	<!-- FWB - Logo -->
+	<add>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_big" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_big" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_big" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_medium" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_medium" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo_medium" unload="true"/>
+		<material_config	path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo" unload="true"/>
+	</add>
+	<!-- FWB - Logo -->
 </table>

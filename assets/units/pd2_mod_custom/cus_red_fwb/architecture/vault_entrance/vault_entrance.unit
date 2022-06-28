@@ -1,6 +1,8 @@
 <unit type="red" slot="1">
 	<object file="units/pd2_mod_custom/cus_red_fwb/architecture/vault_entrance/vault_entrance" />
+	<network sync="spawn"/>
 	<extensions>
+		<extension name="damage" class="UnitDamage" />
 		<extension name="unit_data" class="ScriptUnitData" />
 	</extensions>
 </unit>

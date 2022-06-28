@@ -1,0 +1,19 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'open_vent_1'" triggable="true">
+			<body			enabled="false"		name="'vent_cap1'"/>
+			<object			enabled="false"		name="'g_ventcap'"/>
+			<decal_mesh		enabled="false"		name="'g_ventcap'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_vent_2'" triggable="true">
+			<body			enabled="false"		name="'vent_cap2'"/>
+			<object			enabled="false"		name="'g_room1_ventcap'"/>
+			<decal_mesh		enabled="false"		name="'g_room1_ventcap'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_vent_3'" triggable="true">
+			<body			enabled="false"		name="'vent_cap3'"/>
+			<object			enabled="false"		name="'g_room2_ventcap'"/>
+			<decal_mesh		enabled="false"		name="'g_room2_ventcap'"/>
+		</sequence>
+	</unit>
+</table>

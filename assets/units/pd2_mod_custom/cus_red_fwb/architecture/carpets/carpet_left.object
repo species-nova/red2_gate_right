@@ -1,0 +1,17 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_red/architecture/red" orientation_object="rp_root" />
+	
+	<bodies>
+		<body name="static_body" enabled="true" template="static">
+			<object name="g_g" collision_type="mesh_mopp" />
+		</body>
+	</bodies>
+	
+	<decal_surfaces default_material="carpet" static="true">
+		<decal_mesh name="g_g" enabled="true" material="carpet" />
+	</decal_surfaces>
+	
+	<graphics>
+		<object name="g_g" enabled="true" />
+	</graphics>
+</dynamic_object>
