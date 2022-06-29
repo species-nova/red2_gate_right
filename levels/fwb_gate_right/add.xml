@@ -200,6 +200,9 @@
 		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
 		<bnk from_db="true" path="soundbanks/regular_sfx" unload="true"/>
 		<effect from_db="true" path="effects/particles/window/bank_window_rail" unload="true"/>
+		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
+		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
+		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
 	</add>
 	<add>
 		<unit path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>

@@ -6,7 +6,7 @@
 			<param key="rotation" value="0" />
 		</sky_orientation>
 		<others>
-			<param key="sky_texture" value=""/>
+			<param key="sky_texture" value="core/environments/skies/sky_1345_clear_sky/sky_1345_clear_sky_df"/>
 			<param key="global_world_overlay_mask_texture" value=""/>
 			<param key="underlay" value="core/environments/skies/sky_1224_clear_sky/sky_1224_clear_sky"/>
 			<param key="sun_ray_color_scale" value="5"/>
@@ -25,8 +25,8 @@
 						<param key="fog_far_low_color" value="0 0 0.0078431377187371"/>
 						<param key="ambient_falloff_scale" value="1.4240505695343"/>
 						<param key="sky_bottom_color_scale" value="7.1202530860901"/>
-						<param key="ambient_color_scale" value="0.41360291838646"/>
-						<param key="ambient_color" value="0 0 0"/>
+						<param key="ambient_color_scale" value="0.26371306180954"/>
+						<param key="ambient_color" value="0.258823543787 0.22745099663734 0.14117647707462"/>
 						<param key="fog_max_range" value="7911.3920898438"/>
 						<param key="bloom_threshold" value="0"/>
 						<param key="sky_top_color_scale" value="7.4367084503174"/>
@@ -48,10 +48,6 @@
 					</shadow_modifier>
 				</shadow_rendering>
 			</shadow_processor>
-			<fog_processor>
-			</fog_processor>
-			<hdr_post_processor>
-			</hdr_post_processor>
 			<bloom_combine_post_processor>
 				<bloom_combine>
 					<bloom_lense>
