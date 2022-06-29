@@ -120,7 +120,7 @@
 	</add>
 	<add>
 		<texture path="units/world/props/bank/paintings/textures/painting_tester_df" unload="true"/>
-		<texture path="units/world/props/bank/paintings/textures/stoneplate_nm" unload="true"/>
+		<texture path="units/world/props/bank/paintings/textures/painting_tester_nm" unload="true"/>
 		<cooked_physics path="units/world/props/bank/paintings/painting_tester" unload="true"/>
 		<material_config path="units/world/props/bank/paintings/painting_tester" unload="true"/>
 		<model path="units/world/props/bank/paintings/painting_tester" unload="true"/>

@@ -19,7 +19,16 @@
 	<continent path="editor_only/editor_only" script_data_type="binary"/>
 	<mission path="editor_only/editor_only" script_data_type="binary"/>
 	<cover_data path="cover_data" script_data_type="binary"/>
+	<texture path="cube_lights/104777"/>
+	<texture path="cube_lights/100554"/>
+	<texture path="cube_lights/100269"/>
+	<texture path="cube_lights/104866"/>
+	<texture path="cube_lights/104865"/>
+	<texture path="cube_lights/104823"/>
+	<texture path="cube_lights/500006"/>
 	<texture path="cube_lights/100556"/>
+	<texture path="cube_lights/500007"/>
+	<texture path="cube_lights/104828"/>
 	<texture path="cube_lights/100544"/>
 	<texture path="cube_lights/100548"/>
 	<texture path="cube_lights/100618"/>
@@ -33,12 +42,6 @@
 	<texture path="cube_lights/500125"/>
 	<texture path="cube_lights/500062"/>
 	<texture path="cube_lights/500061"/>
-	<texture path="cube_lights/104823"/>
-	<texture path="cube_lights/500006"/>
-	<texture path="cube_lights/104828"/>
-	<texture path="cube_lights/500007"/>
-	<texture path="cube_lights/100554"/>
-	<texture path="cube_lights/104777"/>
 	<texture path="cube_lights/100545"/>
 	<environment path="environments/fwb_escape_garage" script_data_type="custom_xml"/>
 	<environment path="environments/fwb_escape_stairwell" script_data_type="custom_xml"/>
@@ -106,7 +109,6 @@
 	<texture path="cube_lights/104822"/>
 	<texture path="cube_lights/104840"/>
 	<texture path="cube_lights/104819"/>
-	<texture path="cube_lights/104865"/>
 	<texture path="cube_lights/135448"/>
 	<texture path="cube_lights/137647"/>
 	<texture path="cube_lights/106744"/>
@@ -129,7 +131,6 @@
 	<texture path="cube_lights/104839"/>
 	<texture path="cube_lights/104859"/>
 	<texture path="cube_lights/133048"/>
-	<texture path="cube_lights/104866"/>
 	<texture path="cube_lights/104849"/>
 	<texture path="cube_lights/101765"/>
 	<texture path="cube_lights/106696"/>
