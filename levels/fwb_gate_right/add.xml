@@ -198,11 +198,11 @@
 		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
 		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
 		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/vault_deposit_boxes/vault_deposit_boxes_short" unload="true"/>
+		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
 		<bnk from_db="true" path="soundbanks/regular_sfx" unload="true"/>
 		<effect from_db="true" path="effects/particles/window/bank_window_rail" unload="true"/>
-		<unit				path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
-		<object				path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
-		<model				path="units/pd2_mod_custom/cus_red_fwb/architecture/garage/garage" unload="true"/>
 	</add>
 	<add>
 		<unit path="units/pd2_mod_custom/cus_money_wagon/cus_money_wagon" unload="true"/>
@@ -229,12 +229,12 @@
 	</add>
 	<add>
 		<cooked_physics path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
-		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
-		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
-		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
+		<effect force="true" path="effects/particles/window/bank_entrance_window_swat" unload="true"/>
 		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
+		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
+		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
 		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
-		<effect path="effects/particles/window/bank_entrance_window_swat" unload="true" force="true"/>
+		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
 	</add>
 	<add from_db="true" path="effects/payday2/particles/flares/godrays_dust" type="effect">
 		<effect load="true" path="effects/payday2/particles/flares/godrays_dust"/>
@@ -397,8 +397,96 @@
 		<unit path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_manager"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_cage/props/ind_prop_cardealership_int_sign/ind_prop_cardealership_int_sign_manager" type="unit">
-		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_int_sign/ind_prop_cardealership_int_sign_manager"/>
-		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_int_sign/ind_prop_cardealership_int_sign_manager"/>
 		<material_config path="units/pd2_dlc_cage/props/ind_prop_cardealership_int_sign/ind_prop_cardealership_int_signs"/>
+		<object path="units/pd2_dlc_cage/props/ind_prop_cardealership_int_sign/ind_prop_cardealership_int_sign_manager"/>
+		<unit path="units/pd2_dlc_cage/props/ind_prop_cardealership_int_sign/ind_prop_cardealership_int_sign_manager"/>
+	</add>
+	<add from_db="true" path="units/world/props/security_camera/security_camera" type="unit">
+		<effect load="true" path="effects/particles/dest/security_camera_dest"/>
+		<effect load="true" path="effects/particles/dest/sparks_lamp_dest"/>
+		<material_config path="units/world/props/security_camera/security_camera"/>
+		<object path="units/world/props/security_camera/security_camera"/>
+		<sequence_manager path="units/world/props/security_camera/security_camera"/>
+		<unit path="units/world/props/security_camera/security_camera"/>
+	</add>
+	<add from_db="true" path="units/world/props/security_camera/security_camera_white" type="unit">
+		<material_config path="units/world/props/security_camera/security_camera_white"/>
+		<object path="units/world/props/security_camera/security_camera_white"/>
+		<sequence_manager path="units/world/props/security_camera/security_camera"/>
+		<unit path="units/world/props/security_camera/security_camera_white"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/com_prop_gallery_signs/com_prop_gallery_signs_security" type="unit">
+		<material_config path="units/payday2/props/com_prop_gallery_signs/com_prop_gallery_signs"/>
+		<object path="units/payday2/props/com_prop_gallery_signs/com_prop_gallery_signs_security"/>
+		<unit path="units/payday2/props/com_prop_gallery_signs/com_prop_gallery_signs_security"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+		<object path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+		<sequence_manager path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+		<unit path="units/payday2/props/gen_prop_security_metal_detector/gen_prop_security_metal_detector"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_1" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_1"/>
+		<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_1"/>
+		<unit path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_1"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_3" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_3"/>
+		<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_3"/>
+		<unit path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_3"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_4" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_4"/>
+		<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_4"/>
+		<unit path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_4"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_6" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_6"/>
+		<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_6"/>
+		<unit path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_6"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_5" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_5"/>
+		<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_5"/>
+		<unit path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_5"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7" type="unit">
+		<material_config path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7"/>
+		<object path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7"/>
+		<unit path="units/payday2/props/gen_prop_security_signs/gen_prop_security_sign_7"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/props/chca_prop_signs/chca_prop_sign_security" type="unit">
+		<material_config path="units/pd2_dlc_chca/props/chca_prop_signs/chca_prop_sign_security"/>
+		<object path="units/pd2_dlc_chca/props/chca_prop_signs/chca_prop_sign_security"/>
+		<unit path="units/pd2_dlc_chca/props/chca_prop_signs/chca_prop_sign_security"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security"/>
+		<object path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security"/>
+		<unit path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security_door" type="unit">
+		<material_config path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security_door"/>
+		<object path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security_door"/>
+		<unit path="units/pd2_indiana/props/mus_prop_sign_security/mus_prop_sign_security_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_security" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign2"/>
+		<object path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_security"/>
+		<unit path="units/payday2/props/bnk_prop_harvest_sign/bnk_prop_harvest_sign_security"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector" type="unit">
+		<material_config path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+		<object path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+		<sequence_manager path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+		<unit path="units/pd2_dlc_pent/props/pent_prop_metaldetector/pent_prop_metaldetector"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static" type="unit">
+		<unit path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<object path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<material_config path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<sequence_manager path="units/payday2/props/stn_prop_lobby_metaldetector_static/stn_prop_lobby_metaldetector_static"/>
+		<bnk path="soundbanks/regular_sfx"/>
 	</add>
 </table>
