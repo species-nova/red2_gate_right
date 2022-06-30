@@ -228,11 +228,13 @@
 		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_logo/bank_logo" unload="true"/>
 	</add>
 	<add>
+		<cooked_physics path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
 		<unit path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
 		<object path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
 		<model path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
 		<material_config path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
-		<effect path="effects/particles/window/bank_entrance_window_swat" unload="true"/>
+		<sequence_manager path="units/pd2_mod_custom/cus_red_fwb/architecture/bank_window/bank_window" unload="true"/>
+		<effect path="effects/particles/window/bank_entrance_window_swat" unload="true" force="true"/>
 	</add>
 	<add from_db="true" path="effects/payday2/particles/flares/godrays_dust" type="effect">
 		<effect load="true" path="effects/payday2/particles/flares/godrays_dust"/>
