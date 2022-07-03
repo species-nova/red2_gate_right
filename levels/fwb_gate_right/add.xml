@@ -557,4 +557,32 @@
 		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
 		<scene load="true" path="core/environments/skies/default/default"/>
 	</add>
+	<add from_db="true" path="effects/payday2/environment/born_tunnel_fog" type="effect">
+		<effect load="true" path="effects/payday2/environment/born_tunnel_fog"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/short_1_day_1_fog" type="effect">
+		<effect load="true" path="effects/payday2/environment/short_1_day_1_fog"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/glace_test_fog" type="effect">
+		<effect load="true" path="effects/payday2/environment/glace_test_fog"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/cane_white_fog" type="effect">
+		<effect load="true" path="effects/payday2/environment/cane_white_fog"/>
+	</add>
+	<add from_db="true" path="effects/particles/dest/scene_smoke_cover" type="effect">
+		<effect load="true" path="effects/particles/dest/scene_smoke_cover"/>
+		<effect load="true" path="effects/particles/dest/smoke_pocket_puff"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/environment_smoke_blue" type="effect">
+		<effect load="true" path="effects/payday2/environment/environment_smoke_blue"/>
+	</add>
+	<add from_db="true" path="effects/payday2/environment/crojob_env_smoke" type="effect">
+		<effect load="true" path="effects/payday2/environment/crojob_env_smoke"/>
+	</add>
+	<add from_db="true" path="effects/payday2/menu/infamous_dust" type="effect">
+		<effect load="true" path="effects/payday2/menu/infamous_dust"/>
+	</add>
+	<add from_db="true" path="effects/payday2/economy/environment/safe_eco_saferoom_dust" type="effect">
+		<effect load="true" path="effects/payday2/economy/environment/safe_eco_saferoom_dust"/>
+	</add>
 </table>
