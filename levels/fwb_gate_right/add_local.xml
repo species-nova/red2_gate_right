@@ -19,6 +19,12 @@
 	<continent path="env/env" script_data_type="binary"/>
 	<mission path="env/env" script_data_type="binary"/>
 	<cover_data path="cover_data" script_data_type="binary"/>
+	<texture path="cube_lights/500133"/>
+	<texture path="cube_lights/500068"/>
+	<texture path="cube_lights/104845"/>
+	<texture path="cube_lights/104839"/>
+	<texture path="cube_lights/500061"/>
+	<texture path="cube_lights/500132"/>
 	<texture path="cube_lights/106745"/>
 	<texture path="cube_lights/104813"/>
 	<texture path="cube_lights/104855"/>
@@ -51,9 +57,7 @@
 	<texture path="cube_lights/500007"/>
 	<texture path="cube_lights/104828"/>
 	<texture path="cube_lights/100617"/>
-	<texture path="cube_lights/500068"/>
 	<texture path="cube_lights/104838"/>
-	<texture path="cube_lights/500061"/>
 	<environment path="environments/fwb_escape_garage" script_data_type="custom_xml"/>
 	<environment path="environments/fwb_escape_stairwell" script_data_type="custom_xml"/>
 	<texture path="cube_lights/104860"/>
@@ -131,9 +135,7 @@
 	<texture path="cube_lights/104858"/>
 	<texture path="cube_lights/135378"/>
 	<texture path="cube_lights/104844"/>
-	<texture path="cube_lights/104845"/>
 	<texture path="cube_lights/133047"/>
-	<texture path="cube_lights/104839"/>
 	<texture path="cube_lights/104859"/>
 	<texture path="cube_lights/133048"/>
 	<texture path="cube_lights/104849"/>
