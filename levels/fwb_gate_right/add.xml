@@ -521,4 +521,14 @@
 	<add from_db="true" path="effects/payday2/economy/environment/safe_eco_saferoom_dust" type="effect">
 		<effect load="true" path="effects/payday2/economy/environment/safe_eco_saferoom_dust"/>
 	</add>
+	<add from_db="true" path="units/world/props/office/computer/server_02" type="unit">
+		<material_config path="units/world/props/office/computer/server_01"/>
+		<object path="units/world/props/office/computer/server_02"/>
+		<unit path="units/world/props/office/computer/server_02"/>
+	</add>
+	<add from_db="true" path="units/world/props/office/computer/server_01" type="unit">
+		<unit path="units/world/props/office/computer/server_01"/>
+		<object path="units/world/props/office/computer/server_01"/>
+		<material_config path="units/world/props/office/computer/server_01"/>
+	</add>
 </table>
