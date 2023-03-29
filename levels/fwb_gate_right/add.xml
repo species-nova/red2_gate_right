@@ -527,8 +527,11 @@
 		<unit path="units/world/props/office/computer/server_02"/>
 	</add>
 	<add from_db="true" path="units/world/props/office/computer/server_01" type="unit">
-		<unit path="units/world/props/office/computer/server_01"/>
-		<object path="units/world/props/office/computer/server_01"/>
 		<material_config path="units/world/props/office/computer/server_01"/>
+		<object path="units/world/props/office/computer/server_01"/>
+		<unit path="units/world/props/office/computer/server_01"/>
+	</add>
+	<add from_db="true" path="effects/particles/equipment/c4_bank/c4_explosion" type="effect">
+		<effect load="true" path="effects/particles/equipment/c4_bank/c4_explosion"/>
 	</add>
 </table>
