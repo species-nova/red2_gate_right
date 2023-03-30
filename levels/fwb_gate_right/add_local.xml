@@ -19,6 +19,8 @@
 	<continent path="env/env" script_data_type="binary"/>
 	<mission path="env/env" script_data_type="binary"/>
 	<cover_data path="cover_data" script_data_type="binary"/>
+	<texture path="cube_lights/100636"/>
+	<texture path="cube_lights/100644"/>
 	<texture path="cube_lights/500133"/>
 	<texture path="cube_lights/500068"/>
 	<texture path="cube_lights/104845"/>
