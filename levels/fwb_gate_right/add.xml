@@ -269,13 +269,6 @@
 		<sequence_manager path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_signal_light"/>
 		<unit path="units/payday2/architecture/str_ext_bridge_b/str_bridge_set_signal_light"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_light_01" type="unit">
-		<effect load="true" path="effects/payday2/particles/flares/sea_flare_big_01"/>
-		<material_config path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_light_01"/>
-		<object path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_light_01"/>
-		<sequence_manager path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_light_01"/>
-		<unit path="units/pd2_dlc_cro/ind_signal_buoy/ind_signal_light_01"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/bnk_prop_sofa/bnk_prop_sofa_double_red" type="unit">
 		<material_config path="units/payday2/props/bnk_prop_sofa/bnk_prop_sofa_red"/>
 		<object path="units/payday2/props/bnk_prop_sofa/bnk_prop_sofa_double_red"/>
@@ -285,11 +278,6 @@
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_branchbank"/>
 		<object path="units/payday2/props/shadow_mullplan/mullplan_branchbank_table_a"/>
 		<unit path="units/payday2/props/shadow_mullplan/mullplan_branchbank_table_a"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/shadow_mullplan/mullplan_displaycase_single" type="unit">
-		<material_config path="units/payday2/props/shadow_mullplan/mullplan_branchbank"/>
-		<object path="units/payday2/props/shadow_mullplan/mullplan_displaycase_single"/>
-		<unit path="units/payday2/props/shadow_mullplan/mullplan_displaycase_single"/>
 	</add>
 	<add from_db="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle" type="unit">
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
@@ -331,11 +319,6 @@
 		<object path="units/pd2_dlc_chill/architecture/chl_int_mullplan/chl_int_mullplan_short"/>
 		<unit path="units/pd2_dlc_chill/architecture/chl_int_mullplan/chl_int_mullplan_short"/>
 	</add>
-	<add from_db="true" path="units/pd2_dlc_cro/ind_container_mul/mullplan_container" type="unit">
-		<material_config path="units/pd2_dlc_cro/ind_container_mul/mullplan_container"/>
-		<object path="units/pd2_dlc_cro/ind_container_mul/mullplan_container"/>
-		<unit path="units/pd2_dlc_cro/ind_container_mul/mullplan_container"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/shadow_mullplan/mullplan_branchbank_checktable" type="unit">
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_branchbank"/>
 		<object path="units/payday2/props/shadow_mullplan/mullplan_branchbank_checktable"/>
@@ -351,11 +334,6 @@
 		<object path="units/payday2/props/shadow_mullplan/mullplan_branchbank_round_small"/>
 		<unit path="units/payday2/props/shadow_mullplan/mullplan_branchbank_round_small"/>
 	</add>
-	<add from_db="true" path="units/payday2/props/shadow_mullplan/mullplan_vehicle_light" type="unit">
-		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
-		<object path="units/payday2/props/shadow_mullplan/mullplan_vehicle_light"/>
-		<unit path="units/payday2/props/shadow_mullplan/mullplan_vehicle_light"/>
-	</add>
 	<add from_db="true" path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_01" type="unit">
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
 		<object path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_01"/>
@@ -365,16 +343,6 @@
 		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
 		<object path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_02"/>
 		<unit path="units/payday2/props/shadow_mullplan/nmh_mullplan_small_light_02"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/shadow_mullplan/vit_mullplan_long_01" type="unit">
-		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
-		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_long_01"/>
-		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_long_01"/>
-	</add>
-	<add from_db="true" path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02" type="unit">
-		<material_config path="units/payday2/props/shadow_mullplan/mullplan_vehicle"/>
-		<object path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
-		<unit path="units/payday2/props/shadow_mullplan/vit_mullplan_long_02"/>
 	</add>
 	<add from_db="true" path="units/pd2_dlc_chill/architecture/chl_int_mullplan/chl_int_mullplan_round" type="unit">
 		<material_config path="units/pd2_dlc_chill/architecture/chl_int_mullplan/chl_int_mullplan_round"/>
@@ -533,5 +501,27 @@
 	</add>
 	<add from_db="true" path="effects/particles/equipment/c4_bank/c4_explosion" type="effect">
 		<effect load="true" path="effects/particles/equipment/c4_bank/c4_explosion"/>
+	</add>
+	<add>
+		<cooked_physics path="units/pd2_mod_custom/props/bank_vent/bank_vent"/>
+		<cooked_physics path="units/pd2_mod_custom/props/bank_vent/bank_vent_cover"/>
+		<unit auto_cp="false" path="units/pd2_mod_custom/props/bank_vent/bank_vent"/>
+		<unit path="units/pd2_mod_custom/props/bank_vent/bank_vent_cover"/>
+		<material_config path="units/pd2_mod_custom/props/bank_vent/bank_vent_cover"/>
+		<object path="units/pd2_mod_custom/props/bank_vent/bank_vent_cover"/>
+		<sequence_manager path="units/pd2_mod_custom/props/bank_vent/bank_vent_cover"/>
+		<texture path="units/pd2_mod_custom/props/bank_vent/bank_atlas_df"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/bnk_prop_security_keybox/bnk_prop_security_keybox" type="unit">
+		<material_config path="units/payday2/props/bnk_prop_security_keybox/bnk_prop_security_keybox"/>
+		<object path="units/payday2/props/bnk_prop_security_keybox/bnk_prop_security_keybox"/>
+		<sequence_manager path="units/payday2/props/bnk_prop_security_keybox/bnk_prop_security_keybox"/>
+		<unit path="units/payday2/props/bnk_prop_security_keybox/bnk_prop_security_keybox"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_corp/pickups/corp_pku_keychain/corp_pku_keychain" type="unit">
+		<material_config path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<object path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
+		<unit path="units/pd2_dlc_corp/pickups/corp_pku_keychain/corp_pku_keychain"/>
 	</add>
 </table>

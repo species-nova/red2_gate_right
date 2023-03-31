@@ -1,0 +1,7 @@
+<materials version="3">
+    <material name="vent_cover" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:VERTEX_COLOR" version="2">
+       <diffuse_texture file="units/pd2_mod_custom/props/bank_vent/bank_atlas_df"/>
+        <reflection_texture type="cubemap" global_texture="current_global_texture"/>
+        <variable value="3 0.20000000298023 1.7000000476837" type="vector3" name="environment_settings"/>
+    </material>
+</materials>

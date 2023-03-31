@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<unit type="static" slot="1">
+  <object file="units/pd2_mod_custom/props/bank_vent/bank_vent" />
+  <extensions>
+    <extension name="unit_data" class="ScriptUnitData" />
+  </extensions>
+</unit>
