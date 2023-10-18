@@ -1,1 +1,7 @@
-{}
+{
+	"heist_red2_gate_right_name" : "First World Bank",
+	"heist_red2_gate_right_brief" : "We've been eyeing the First World Bank for a while. Now it's time to pull the trigger. Get down there and relieve them of their ill-gotten gains.$NL;$NL;» Locate the manager$NL;» Get access to the server room$NL;» Force your way to the vault$NL;» Bag all the money and escape",
+	"heist_fwb_gate_right_name" : "First World Bank",
+	"heist_fwb_gate_right_brief" : "The vault is buried deep in the back of the bank. Getting through to it will be tough, but we have some help. An Inside Man is prepped and waiting for you. They're going to help us out once you're in there.$NL;$NL;You can do this loud, or you can take it softly. Up to you.",
+
+}
