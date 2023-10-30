@@ -128,6 +128,14 @@
 		<unit path="units/world/props/bank/paintings/painting_tester" unload="true"/>
 	</add>
 	<add>
+		<texture path="units/world/props/bank/paintings/textures/painting_tester2_df" unload="true"/>
+		<cooked_physics path="units/world/props/bank/paintings/painting_tester2" unload="true"/>
+		<material_config path="units/world/props/bank/paintings/painting_tester2" unload="true"/>
+		<model path="units/world/props/bank/paintings/painting_tester2" unload="true"/>
+		<object path="units/world/props/bank/paintings/painting_tester2" unload="true"/>
+		<unit path="units/world/props/bank/paintings/painting_tester2" unload="true"/>
+	</add>
+	<add>
 		<texture path="units/world/props/bank/paintings/textures/stoneplate_df" unload="true"/>
 		<texture path="units/world/props/bank/paintings/textures/stoneplate_nm" unload="true"/>
 		<cooked_physics path="units/world/props/bank/paintings/stoneplate" unload="true"/>
@@ -523,5 +531,17 @@
 		<object path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
 		<sequence_manager path="units/pd2_dlc_chas/pickups/chas_pku_keychain/chas_pku_keychain"/>
 		<unit path="units/pd2_dlc_corp/pickups/corp_pku_keychain/corp_pku_keychain"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/boombox/boombox" type="unit">
+		<material_config path="units/world/props/apartment/boombox/boombox"/>
+		<object path="units/world/props/apartment/boombox/boombox"/>
+		<sequence_manager path="units/world/props/apartment/boombox/boombox"/>
+		<unit path="units/world/props/apartment/boombox/boombox"/>
+	</add>
+	<add from_db="true" path="units/world/props/suburbia_boombox/suburbia_boombox" type="unit">
+		<material_config path="units/world/props/suburbia_boombox/suburbia_boombox"/>
+		<object path="units/world/props/suburbia_boombox/suburbia_boombox"/>
+		<sequence_manager path="units/world/props/suburbia_boombox/suburbia_boombox"/>
+		<unit path="units/world/props/suburbia_boombox/suburbia_boombox"/>
 	</add>
 </table>

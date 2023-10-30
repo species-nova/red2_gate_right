@@ -1,4 +1,7 @@
 <table min_lib_ver="4.5" name="red2_gate_right">
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
 	<level ai_group_type="america" briefing_dialog="Play_pln_fwb_brf_01" cube="cube_apply_heist_bank" ghost_bonus="0.15" id="fwb_gate_right" intro_event="Play_pln_fwb_intro_01" max_bags="84" music="heist">
 		<assets/>
 		<outro_event>
@@ -16,6 +19,7 @@
 			<value_node value="levels/narratives/classics/red2/env/env"/>
 			<value_node value="levels/narratives/classics/red2/lights_rob/lights_rob"/>
 			<value_node value="levels/instances/unique/brb/brb_deposit_room/world/world"/>
+			<value_node value="packages/narr_haunted"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
@@ -83,7 +87,4 @@
 			<value_node value="1.3e+006"/>
 		</payout>
 	</narrative>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
 </table>

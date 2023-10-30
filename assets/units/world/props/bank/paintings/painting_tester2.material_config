@@ -1,0 +1,6 @@
+<materials version="3">
+    <material version="2" name="painting_tester2" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP">
+        <diffuse_texture file="units/world/props/bank/paintings/textures/painting_tester2_df"/>
+        <bump_normal_texture file="units/world/props/bank/paintings/textures/painting_tester_nm"/>
+    </material>
+</materials>
