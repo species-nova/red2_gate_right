@@ -2,6 +2,9 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
+	<AddFiles directory="assets">
+		<texture path="guis/dlcs/pro/textures/pd2/crimenet/fwb"/>
+	</AddFiles>
 	<level ai_group_type="america" briefing_dialog="Play_pln_fwb_brf_01" cube="cube_apply_heist_bank" ghost_bonus="0.15" id="fwb_gate_right" intro_event="Play_pln_fwb_intro_01" max_bags="84" music="heist">
 		<assets/>
 		<outro_event>
@@ -27,7 +30,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative briefing_event="pln_fwb_cbf_01" contact="classic" debrief_event="pln_fwb_34" icon="guis/dlcs/bro/textures/pd2/crimenet/fwb" id="red2_gate_right" jc="60" load_screen="guis/dlcs/pic/textures/loading/job_fwb" region="street">
+	<narrative briefing_event="pln_fwb_cbf_01" contact="classic" debrief_event="pln_fwb_34" icon="guis/dlcs/pro/textures/pd2/crimenet/fwb" id="red2_gate_right" jc="60" load_screen="guis/dlcs/pic/textures/loading/job_fwb" region="street">
 		<chain>
 			<table level_id="fwb_gate_right" type="d" type_id="heist_type_assault"/>
 		</chain>
